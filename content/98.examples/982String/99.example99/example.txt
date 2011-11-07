@@ -1,0 +1,11 @@
+title: Generic
+-
+synopsis: This is a generic example
+-
+shortsynopsis: 
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+NSObject *o = [[[NSObject alloc] init] retain];
+]]></script>

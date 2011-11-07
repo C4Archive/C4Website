@@ -1,0 +1,13 @@
+title: C4
+-
+synopsis: A few examples which play around with the C4 logo.
+-
+overview: There should be a list of examples, unique to Generic Objects, with short explanations and maybe even smaller images.
+-
+variables: variables
+-
+classmethods: classmethods
+-
+instancemethods: instancemethods
+-
+relatedexamples: links to related examples

@@ -1,0 +1,18 @@
+title: GenericClass
+-
+synopsis: Examples showing how to work with Generic Objects.
+-
+overview: There should be a list of examples, unique to Generic Objects, with short explanations and maybe even smaller images.
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-relatedexamples: links to related examples

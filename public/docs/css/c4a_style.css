@@ -1,0 +1,350 @@
+/* colors */
+
+ul li, p, em {
+	list-style: none;
+}
+a p
+a, ul, li {
+	margin:0;
+	padding:0;
+	border:0px;
+}
+
+a:link { text-decoration: none; }
+a:active { text-decoration: none; }
+a:visited {text-decoration: none;   }
+a:hover { text-decoration: none; }
+
+img {
+	border:0px;
+}
+/* Layout */
+
+body { 
+	height:100%;
+	width:1024px;
+	margin:0 auto 0 auto;
+	padding: 0;
+}
+
+figure, nav {
+	margin:0;
+	padding:0;
+}
+
+#index_content {
+	width: 240px;
+	margin: 30px 0px 0px 240px; 
+	padding: 0px;
+	position:absolute;
+}
+
+#navigation {
+	margin:30px 0px 0px 30px;
+	width:180px;
+	position:absolute;
+	
+}
+/* for the main navigation lists */
+#navigation ul {
+	margin:20px 0px 0px 10px;
+}
+
+#navigation ul ul {
+	margin:2px 0px 4px 10px;
+}
+
+#navigation ul ul li {
+	margin:2px 0px 0px 0px;
+}
+
+.col {
+	display: inline;
+	float: left; 
+	margin: 0px 0px 0px 0px; 
+	padding: 0px; 
+}
+
+.one { width: 10px; }
+.two { width: 20px; }
+.three { width: 30px; }
+.four { width: 40px; }
+.five { width: 180px; }
+.six { width: 190px; }
+.seven { width: 240px;}
+.eight { width: 480px; }
+.nine { width: 744px;}
+.auto { width: auto; }
+
+/* Typography */
+#content p, 
+#index_content p, 
+#featured_projects p, 
+#projects p, 
+#projects_description p,
+#all_examples p{
+	font-family:'Ubuntu';
+	font-weight:300;
+	padding:0px;
+	font-size:1.0em;
+	color:#000;
+	text-align:justify;
+}
+#content p a, #index_content p a {
+	border-bottom:thin dotted #f33;
+	color:#36f;
+}
+
+#content p a:hover, 
+#index_content p a:hover, 
+#all_examples p a:hover{
+	border-bottom:thin dotted #36f;
+	color:#f33;
+}
+
+#projects p a{
+	color:#030; 
+}
+a {
+	text-decoration: none;
+}
+
+
+p#title {
+	font-family:'Ubuntu';
+	font-weight:600;
+	font-size:18px;
+}
+
+#mainnav_section, #mainnav_subsection {
+	color:#000;
+	text-decoration:none;
+}
+
+#mainnav_section {
+	display:block;
+	font-size:1.7em;
+	font-family:'Ubuntu';
+	font-weight:600;
+	line-height:100%;
+}
+
+#mainnav_section.current, #mainnav_subsection.current {
+	color:#36f;
+}
+
+#mainnav_subsection {
+	display:block;
+	font-size:1.1em;
+	font-family:'Ubuntu';
+	font-weight:500;
+	letter-spacing:0.05em;
+	line-height:1.0em;
+}
+
+#exampletitle{
+	display:block;
+	font-family:'Ubuntu';
+	font-weight:500;
+	letter-spacing:0.05em;
+	line-height:1.0em;
+	color:#000;
+}
+
+#exampletitle{
+	margin-bottom:10px;
+	font-size:18px;
+}
+
+#exampletitle:hover, #example:hover{
+	color:#F33;	
+}
+
+#example {
+	display:block;
+	font-family:'Ubuntu';
+	font-weight:400;
+	letter-spacing:0.05em;
+	line-height:0.7em;
+	color:#222;
+	font-size:13px !important;
+}
+
+#example{
+	padding-left:10px;
+	margin-bottom:-10px;
+	font-size:1.1em;
+}
+
+#mainnav_section:hover , #mainnav_subsection:hover{
+	color:#f33;
+}
+
+friend {
+	font-family:'Ubuntu';
+	font-weight:300;
+	font-style:none;
+	font-size:0.86em;
+}
+
+/******************main menu*******************/
+
+div#media { overflow:visible; }
+div.media { margin: 0px 0px 10px; }
+div.description div#media { margin: 0px 0px 10px; border: 0px; padding: 0px; }
+a.atom-rss { margin: 0px 0px 0px 6px; padding: 2px 3px 0px; font-size: 0.93em; letter-spacing: 0.08em; background: #ddd; }
+
+/*c4a*/
+#logo{
+	margin:0px 0px 0px 0px;
+}
+#menu{
+	height:100%;
+	margin-right:10px;
+}
+#menu ul{
+	padding:10px 0 0 10px;
+	list-style-type: none;
+	line-height: 0.9; 
+}
+
+#description{
+	font-family:'Josefin Sans', sans-serif; 
+	font-size:20px;
+	line-height:1;
+}
+
+#featured{
+	padding:0px;
+}
+
+img{border:none;}
+
+#footer{
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 11px; 
+    text-align: center;
+	height: 24px;
+    width: 1020px;
+	margin:0 auto 0 auto;
+}
+
+/*layout*/
+
+#content{
+	margin:30px 0px 0px 240px;
+	width:500px;
+	padding:0px;
+	position:absolute;
+}
+#content p, 
+#index_content p, 
+#featured_projects p, 
+#projects p, 
+#projects_description p,
+#all_examples p{
+	margin:-2px 0px 14px 0px;
+}
+
+#featured_projects{
+	margin:29px 0px 0px 510px;
+	width:auto;
+}
+#projects{
+	margin:144px 0px 0px 240px;
+	position:absolute;
+}
+#projects_description{
+	margin:30px 0px 0px 240px;
+	position:absolute;
+	width:744px;
+}
+#all_examples{
+	margin:144px 0px 0px 240px;
+	padding-bottom:40px;
+}
+
+#examples_column {
+	width:180px;
+	float:left;
+}
+
+#examples_list{
+	margin: -3px 0px;
+	padding:0px 0px 30px 0px;
+	display: block;
+}
+/**hover image index**/
+a.thumb{
+	position:relative;
+	top:0px;
+	left:0px;
+	margin-bottom:20px;
+	display:block;
+	background:#fff;
+	overflow:hidden;
+	width:484px;
+	height:160px;
+}
+a.thumb span.over{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:#fff;
+	height:101%;
+	width:100%;
+	display:none;
+	margin-top:-1px;
+}
+
+a.thumb_projects{
+	position:relative;
+	top:0px;
+	left:0px;
+	margin-bottom:30px;
+	display:block;
+	background:#fff;
+	overflow:hidden;
+	width:744px;
+	height:160px;
+}
+
+a.thumb_projects span.over{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:#fff;
+	height:101%;
+	width:100%;
+	display:none;
+	margin-top:-1px;
+}
+
+
+#image_discusion p{
+	font-family:'Ubuntu';
+	font-weight:300;
+	font-size:1.1em;
+}
+
+#image510{
+	position:absolute;
+	margin:800px 0px 0px 200px;
+	width:500px;
+	height:320px;
+	background:#000;
+}
+
+p#codecontent {
+	margin:0px;
+	width:780px;
+}
+
+div#twittershare {position:relative; margin:0px; display:inline;}
+a.twittershare { border:0px; margin:0px;}
+
+div#twitterfollow {position:relative; margin:0px 0px 0px 0px; display:inline;}
+a.twitterfollow { border:0px; margin:0px;}
+
+div#plus1 {position:relative; margin:0px 0px 0px 0px; display:inline; padding-left:146px;}
+a.plus1 { border:0px; margin:0px;}

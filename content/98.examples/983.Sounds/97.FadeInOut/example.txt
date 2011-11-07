@@ -1,0 +1,31 @@
+title: Fade In/Out
+-
+synopsis: This example shows how to play a custom sound and fade it in and out automatically
+-
+shortsynopsis: shows how to fade a custom sound in and out automatically
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+@implementation CFACanvas
+
+CFASound *clip;
+NSInteger dir = 1;
+
+-(void)setup {
+    [self drawStyle:DISPLAYRATE];
+    clip = [CFASound soundWithName:@"loop" andType:@"aif"];
+    [clip setVolume:0.0f];
+    [clip play];
+    [clip setLoops:YES];
+}
+
+-(void)draw {
+    [clip setVolume:[clip volume]+0.005*dir];
+    if ([clip volume] == 0 || [clip volume] == 1){
+        dir *= -1;
+    } 
+}
+@end]]></script>

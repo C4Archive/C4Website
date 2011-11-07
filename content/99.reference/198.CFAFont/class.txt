@@ -1,0 +1,48 @@
+title: CFAFont
+-
+synopsis: A class that provides access and control over all system fonts.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+-(id)init;
+-(id)initWithName:(id)name;
+-(id)initWithName:(id)name size:(CGFloat)size;
+-(id)initWithFont:(id)aFont;
+
++(CFAFont *)fontWithFont:(id)aFont;
++(CFAFont *)fontWithName:(id)name size:(CGFloat)size;
++(CFAFont *)userFontOfSize:(CGFloat)size;
++(CFAFont *)boldSystemFontOfSize:(CGFloat)size;
++(CFAFont *)messageFontOfSize:(CGFloat)size;
++(CFAFont *)systemFontOfSize:(CGFloat)size;
+
++(CGFloat)smallSystemFontSize;
++(CGFloat)systemFontSize;
+
++(NSArray *)availableFonts;
+
+-(CGFloat)ascender;
+-(CGFloat)capHeight;
+-(CGFloat)descender;
+-(CGFloat)italicAngle;
+-(CGFloat)leading;
+-(CGFloat)pointSize;
+-(CGFloat)underlinePosition;
+-(CGFloat)underlineThickness;
+-(CGFloat)xHeight;
+
+-(CFAString *)displayName;
+-(CFAString *)familyName;
+-(CFAString *)fontName;]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+relatedexamples: links to related examples

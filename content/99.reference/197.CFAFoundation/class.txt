@@ -1,0 +1,21 @@
+title: CFAFoundation
+-
+synopsis: A class which provides functionalities like logging, and sorting.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+void CFALog(NSString *logString,...);
+NSInteger basicSort(id obj1, id obj2, void *context);
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+relatedexamples: links to related examples

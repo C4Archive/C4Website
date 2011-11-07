@@ -1,0 +1,31 @@
+title: Quiet Princess
+-
+synopsis: This example shows how to create a specific voice object and set its volume, in this case the one called PRINCESS
+
+Names you can use are: 
+<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+AGNES, ALBERT, ALEX, BADNEWS, BAHH, BELLS, BOING, BRUCE, 
+BUBBLES, CELLOS, DERANGED, FRED, GOODNEWS, HYSTERICAL, 
+JUNIOR, KATHY, ORGAN, PRINCESS, RALPH, TRINOIDS, VICKI, 
+VICTORIA, WHISPER, ZARVOX
+]]></script>
+
+To hear the different voices, try changing swapping out the word PRINCESS for one of the above in the code below
+
+-
+shortsynopsis: shows how to choose a specific voice and set its volume
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAVoice *princess;
+
+@implementation CFACanvas
+-(void)setup {
+    princess = [[[CFAVoice alloc] initWithVoice:PRINCESS] retain];
+    [princess setVolume:0.05];
+    [princess speak:@"where are my glass slippers?"];
+}
+@end]]></script>

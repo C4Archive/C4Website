@@ -1,0 +1,25 @@
+title: Width and Height
+-
+synopsis: This example shows how to set the canvas size, it also shows how to dynamically access their values.
+-
+shortsynopsis: shows how to set the size of the canvas
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+@implementation CFACanvas
+
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [CFAString fill:1.0f];
+}
+
+-(void)draw {
+    [[CFAString stringWithFormat:
+      @"The canvas dimensions are: %4.2f x %4.2f", self.canvasWidth, self.canvasHeight] 
+     drawAtPoint:NSMakePoint(20, self.centrePos.y)];
+}
+
+@end]]></script>

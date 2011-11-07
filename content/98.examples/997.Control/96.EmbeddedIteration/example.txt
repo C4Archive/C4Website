@@ -1,0 +1,33 @@
+title: Embedded Iteration
+-
+synopsis: This example shows how to embedd FOR loops inside one another, so you can do them over and over and over and...
+-
+shortsynopsis: iterate and iterate and iterate well
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+float box_size = 16.0f;
+float box_space = 17.0f;
+int margin = 12;
+
+@implementation CFACanvas
+-(void)setup {
+    [self background:0];
+    [self windowWidth:400 andHeight:320];
+    [CFAShape noStroke];
+    [CFAShape fill];
+}
+-(void)draw {
+    for(int i = margin; i <= self.canvasHeight-margin && box_size > 1; i+=box_space){
+        if (box_size > 1) {
+            for(int j = margin; j < self.canvasWidth-margin; j+=box_space){
+                [CFAShape fill:3*self.canvasHeight/(i*box_space)];
+                [CFAShape ellipseWithXPos:j yPos:i width:box_size andHeight:box_size];
+            }
+        }
+        box_size = box_size-.6;
+    }
+}
+@end]]></script>

@@ -1,0 +1,13 @@
+title:C4
+-
+content: 
+This is the @minilogo Alpha site. There is still a lot of filling in to do, but things seem to work well for the moment.
+<br>
+<br>
+The <a href="@root_path/reference">REFERENCE</a> section has all the current methods in it, broken down into class categories. Unfortunately, individual method pages aren't complete.
+<br>
+<br>
+The <a href="@root_path/examples">EXAMPLES</a> page is complete, with images and code.
+<br>
+<br>
+For support, you can sign up for the @googlegroup and post any questions you have.

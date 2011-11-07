@@ -1,0 +1,43 @@
+title: Shape Modes
+-
+synopsis: This example shows how the CORNER and CENTER modes are used to draw rectangles and ellipses
+-
+shortsynopsis: shows how to use CENTER and CORNER shape modes
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+}
+-(void)draw {
+    /*
+     default rectMode is CORNER
+     default ellipseMode is CENTER
+     */
+
+    [CFAShape rectWithXPos:self.canvasWidth/4-20
+                      yPos:self.canvasHeight/2
+                     width:80 
+                 andHeight:80];
+    [CFAShape ellipseWithXPos:self.canvasWidth*3/4-20 
+                         yPos:self.canvasHeight/2 
+                        width:80 
+                    andHeight:80];
+    
+    [CFAShape fill:0];
+
+    [CFAShape rectMode:CENTER];
+    [CFAShape ellipseMode:CORNER];
+    [CFAShape rectWithXPos:self.canvasWidth*1/4-20 
+                      yPos:self.canvasHeight/2 
+                     width:80
+                 andHeight:80];
+    [CFAShape ellipseWithXPos:self.canvasWidth*3/4-20 
+                         yPos:self.canvasHeight/2 
+                        width:80 
+                    andHeight:80];
+}
+@end]]></script>

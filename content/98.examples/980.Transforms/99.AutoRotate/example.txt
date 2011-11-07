@@ -1,0 +1,57 @@
+title: AutoRotate
+-
+synopsis: This example introduces basic transforms by rotating an image around the canvas center point
+
+Currently you can translate and rotate only in 2D using the following methods
+
+<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+translateBy:(NSPoint)p
+translateByX:(CGFloat)x andY:(CGFloat)y
+rotateByAngle:(CGFloat)angle
+]]></script>
+
+Which have to be contained within calls to
+
+<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+[CFATransform begin]
+[CFATransform end]
+]]></script>
+
+Furthermore, before you end a transform you need to call 
+<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+[CFATransform concat]
+]]></script>
+
+The concat method can be called many times between begin and end, with differing effects, but essentially takes a stack of transform calls and compresses them into a single transform which has a visible effect, without calling concat you won't see any changes
+-
+shortsynopsis: introduces basic transforms
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAImage *C4;
+CGFloat theta;
+
+@implementation CFACanvas
+
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self drawStyle:DISPLAYRATE];
+    C4 = [[CFAImage imageName:@"C4Red.png"] retain];
+    C4.imageMode = CENTER;
+    theta = 0.0f;
+}
+
+-(void)draw {
+    [self background:0 alpha:0.02f];
+    [CFATransform begin];
+    [CFATransform translateBy:self.centerPos];
+    [CFATransform rotateByAngle:theta];
+    [CFATransform concat];
+    [C4 drawAt:NSZeroPoint];
+    [CFATransform end];
+    theta += PI/180.0f;
+}
+@end]]></script>

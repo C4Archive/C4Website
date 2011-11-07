@@ -1,0 +1,33 @@
+title: Variable Math
+-
+synopsis: This example introduces the concept of variables
+-
+shortsynopsis: introduces the concept of variables
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self background:0];
+    [CFAShape stroke:1.0f];
+}
+-(void)draw {
+    int a = 40;
+    int b = 80;
+    int c = a*8;
+    int d = a*9;
+    int e = b-a;
+    int f = b*2;
+    int g = f+e;
+    
+    [CFAShape lineFromX:a Y:f toX:b Y:g];
+    [CFAShape lineFromX:b Y:e toX:d Y:c];
+    [CFAShape lineFromX:a Y:e toX:d-e Y:c];
+    
+    [CFAShape strokeRed:0.5 green:0.5 blue:1.0];
+    [CFAShape lineFromX:b Y:e toX:b Y:g];
+}
+@end]]></script>

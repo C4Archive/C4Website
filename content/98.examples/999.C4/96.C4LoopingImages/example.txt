@@ -1,0 +1,45 @@
+title: C4 Looping Images
+-
+synopsis: Responding to the mouse position, this example moves 4 images across the canvas from left to right (getting faster the closer the mouse is to the right side of the window). When the images are moving fast enough they stand still and look like they're flickering.
+-
+shortsynopsis: creates visual trickery
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAImage *C4Red, *C4Blue, *C4Orange, *C4Black;
+NSPoint points1[4];
+
+@implementation CFACanvas
+
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self drawStyle:DISPLAYRATE];
+    
+    C4Black = [CFAImage imageName:@"C4Black.png"];
+    C4Blue = [CFAImage imageName:@"C4Blue.png"];
+    C4Orange = [CFAImage imageName:@"C4Orange.png"];
+    C4Red = [CFAImage imageName:@"C4Red.png"];
+    
+    points1[0].x = -66.67; points1[0].y = 160;
+    points1[1].x = 66.67; points1[1].y = 160;
+    points1[2].x = 200.00; points1[2].y = 160;
+    points1[3].x = 333.33; points1[3].y = 160;
+}
+
+-(void)draw {
+    [self background:1];
+    [C4Black drawAt:points1[0] withWidth:133.33 andHeight:88.89];
+    [C4Orange drawAt:points1[1] withWidth:133.33 andHeight:88.89]; 
+    [C4Blue drawAt:points1[2] withWidth:133.33 andHeight:88.89];
+    [C4Red drawAt:points1[3] withWidth:133.33 andHeight:88.89];
+    
+    for(int i = 0; i < 4; i++) {
+        points1[i].x += mousePos.x/400.0f*133.33;
+        if(points1[i].x > 466.67) points1[i].x -= 533.33;
+    }
+}
+@end
+]]></script>

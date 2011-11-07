@@ -1,0 +1,25 @@
+title: Iterative Stretch
+-
+synopsis: This example draws the same image multiple times, stretching it accordingly, by using iteration
+-
+shortsynopsis: draws the same image multiple times
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAImage *a;
+
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:496];
+    a = [CFAImage imageName:@"C4Sky.png"];
+}
+-(void)draw {
+    for(int x = 20, y = 0; x < self.canvasWidth; y += x*0.8, x += x) {
+        [a drawAt:NSMakePoint(0, y) withWidth:x andHeight:x*0.8];
+        [a drawAt:NSMakePoint(x,y) withWidth:self.canvasWidth-x andHeight:x*0.8];
+    }
+}
+@end]]></script>

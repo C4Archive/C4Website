@@ -1,0 +1,20 @@
+title: CFAQuartz
+-
+synopsis: A class for creating and manipulating Quartz patches in C4
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(CFAQuartz *)patchWithName:(id)patchName;
+-(id)initWithPatchName:(id)patchName;
+-(void)render;
+-(void)renderWithArguments:(NSDictionary *)arguments;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+relatedexamples: links to related examples

@@ -1,0 +1,35 @@
+title: Singleframe
+-
+synopsis: This example introduces the default draw style
+-
+shortsynopsis: the default draw style
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+
+float y;
+
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [CFAString fill:1.0f];
+    [CFAShape strokeRed:1.0f green:0.2f blue:0.2f];
+    y = self.centrePos.y;
+    
+}
+
+-(void)draw {
+    [CFAShape lineFromX:0 Y:y toX:self.canvasWidth Y:y];
+    y++;
+    if(y < self.canvasHeight) y = 0;
+    
+    CFALog(@"The default draw style is SINGLEFRAME");
+    CFALog(@"This sketch should send only 1 message");
+    
+    [[CFAString stringWithString:
+      @"The default draw style is SINGLEFRAME\nThis sketch should send only 1 message"] 
+     drawAtPoint:NSMakePoint(20, self.canvasHeight/2)];
+}
+@end]]></script>

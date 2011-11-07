@@ -1,0 +1,43 @@
+title: Object Array 2D
+-
+synopsis: This example uses a mutable object array in place of a C Array and copies the same effect as in the Array 2D example
+-
+shortsynopsis: creates a 2D gradient
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+NSMutableArray *distances;
+
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self background:0];
+    NSPoint center = NSMakePoint(self.canvasWidth/2, self.canvasHeight/2);
+    float maxDistance = [CFAVector distanceBetweenA:NSZeroPoint andB:center];
+    distances = [[NSMutableArray arrayWithCapacity:0] retain];
+    for(int i = 0; i < self.canvasHeight; i++){
+        NSMutableArray *rowOfDistances = [NSMutableArray arrayWithCapacity:0];
+        for(int j = 0; j < self.canvasWidth; j++){
+            float dist = [CFAVector distanceBetweenA:NSMakePoint(j, i) andB:center];
+            [rowOfDistances addObject:[NSNumber numberWithFloat:dist/maxDistance]];
+        }
+        [distances addObject:rowOfDistances];
+    }
+}
+
+-(void)draw {
+    [self background:0];
+    for(int i = 0; i < [distances count]; i+=2) {
+        for(int j = 0; j < [[distances objectAtIndex:i] count]; j+=2) {
+            float color = [[[distances objectAtIndex:i] objectAtIndex:j] floatValue];
+            [CFAShape fill:color];
+            [CFAShape pointAtX:j Y:i];
+            //A Different Drawing Scheme
+            //[CFAShape pointAtX:j/2+self.canvasWidth/4 Y:i/2+self.canvasHeight/4];
+        }
+    }
+}
+@end]]></script>

@@ -1,0 +1,85 @@
+title: CFACanvas
+-
+synopsis: This is the main class for setting up and working with the application.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+@property(readonly) BOOL keyIsPressed, mouseIsPressed;
+@property(readonly) NSUInteger keyChar, keyCode, mouseButton, frameCount, currentDrawStyle;
+@property(readonly) NSPoint mousePos, prevMousePos, centerPos;
+@property(readonly) NSSize canvasSize, screenSize;
+@property(readonly) NSRect canvasRect;
+@property(readonly) CGFloat canvasWidth, canvasHeight, screenWidth, screenHeight;
+@property(readonly) CGFloat frameRate;]]>
+</script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+-(void)setup;
+-(void)draw;
+-(void)redraw;
+-(void)windowWidth:(int)width andHeight:(int)height;
+-(void)flipCoordinates;
+-(void)nativeCoordinates;
+-(void)drawStyle:(int)style;
+-(void)setFrameRate:(CGFloat)aRate;
+-(void)update;
+-(void)setupDisplayLink;
+-(void)setupAndStartDisplayLink;
+-(void)stopDisplayLink;
+
+-(void)cursor;
+-(void)noCursor;
+-(void)enterFullScreen;
+-(void)exitFullScreen;
+-(void)borderlessWindow;
+-(void)borderedWindow;
+-(void)toggleBorderlessWindow;
+-(void)windowTitle:(id)title;
+-(NSRect)visibleCanvasRect;
++(CGFloat)getScreenWidth;
++(CGFloat)getScreenHeight;
++(CGFloat)getCanvasWidth;
++(CGFloat)getCanvasHeight;
++(NSRect)getCanvasRect;
++(NSRect)getVisibleCanvasRect;
++(NSPoint)getMousePos;
++(NSUInteger)getMouseButton;
++(CGFloat)getFrameRate;
++(NSUInteger)getFrameCount;
+
+-(void)drawBackground;
+-(void)background:(float)grey;
+-(void)background:(float)grey alpha:(float)alpha;
+-(void)backgroundRed:(float)red green:(float)green blue:(float)blue;
+-(void)backgroundRed:(float)red green:(float)green blue:(float)blue alpha:(float)alpha;
+-(void)backgroundColor:(id)color;
+-(void)backgroundImage:(CFAImage *)bgImage;
+
+-(void)keyPressed;
+-(void)keyReleased;
+-(void)mousePressed;
+-(void)mouseReleased;
+-(void)mouseDragged;
+-(void)mouseMoved;
+-(void)mouseClicked;
+-(void)mouseDoubleClicked;
+
+-(void)setupPDF;
+-(void)endPDF;
+
+-(CFAImage *)screenShot;
+-(CFAImage *)canvasShot;
+-(CFAImage *)screenShotFromRect:(NSRect)aRect;
+-(void)saveScreenShot;
+-(void)saveCanvasShot;
+-(void)saveScreenShotFromRect:(NSRect)aRect;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+relatedexamples: links to related examples

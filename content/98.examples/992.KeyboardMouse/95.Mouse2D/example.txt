@@ -1,0 +1,34 @@
+title: Mouse 2D
+-
+synopsis: This example shows how to control a visualization using both the mouse's X and Y positions
+-
+shortsynopsis: visualizes the mouse's position along the x and y axes
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self drawStyle:EVENTBASED];
+    [self background:0.15f];
+    [CFAShape noStroke];
+    [CFAShape rectMode:CENTER];
+}
+
+-(void)draw {
+    [self background:0.15f];
+    [CFAShape fill:1.0f alpha:0.8f];
+    [CFAShape rectWithXPos:mousePos.x 
+                      yPos:self.canvasHeight/2 
+                     width:mousePos.y/2+10 
+                 andHeight:mousePos.y/2+10];
+    int inverseX = self.canvasWidth-mousePos.x;
+    int	inverseY = self.canvasHeight-mousePos.y;
+    [CFAShape rectWithXPos:inverseX 
+                      yPos:self.canvasHeight/2 
+                     width:inverseY/2+10 
+                 andHeight:inverseY/2+10];
+}
+@end]]></script>

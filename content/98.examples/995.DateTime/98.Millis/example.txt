@@ -1,0 +1,32 @@
+title: Millis
+-
+synopsis: This example visualizes time since an app launches by using the millis method which returns the number of milliseconds that have elapsed since an app was launched
+-
+shortsynopsis: visualizes time since an app was launched
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+float scale;
+int divisions = 40;
+
+@implementation CFACanvas
+-(void)setup {
+    [self drawStyle:DISPLAYRATE];
+    [self windowWidth:400 andHeight:320];
+    [CFAShape noStroke];
+    scale = self.canvasWidth/divisions;
+}
+
+-(void)draw {
+    for(int i = 0; i < divisions; i++) {
+        int scalefactor = (int)((i+1) * scale *10);
+        float grey = [CFADateTime millis]%(scalefactor);
+        grey = [CFAMath map:grey fromMin:0 max:scalefactor toMin:0 max:1];
+        [CFAShape fill:grey];
+        [CFAShape rectWithXPos:i*scale yPos:0 width:scale andHeight:self.canvasHeight];
+    }
+}
+@end]]></script>

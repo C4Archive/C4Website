@@ -1,0 +1,16 @@
+<a href="@root_path" id="logo">@logo</a>
+<ul>			
+	foreach $root do
+		<li><a href="@url" id="mainnav_section" if @is_current do class="current" endif if @is_parent do class="current" endif if @is_grandparent do class="current" endif>@title</a></li>
+					
+		if @is_parent do
+		if $children do
+		<ul>
+			foreach $children do
+			<li><a href="@url" id="mainnav_subsection" if @is_current do class="current" endif if @is_parent do class="current" endif>@title</a></li>
+			endforeach
+		</ul>
+		endif
+		endif
+	endforeach
+</ul>

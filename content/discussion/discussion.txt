@@ -1,0 +1,50 @@
+title: Discussion
+-
+synopsis:
+Figuring out the state of the project...
+-
+content:
+Essentially, what you see on this site (as of Nov'10), is a proof of concept, that can change radically to better meet the idea of "cocoa for artists".
+
+For the moment, I've built the project to resemble @processing because it was easy, and because I really like their approach to teaching programming.
+
+Below are parts of different conversations I've had regarding the project:
+<hr>
+Please... email me if you have some comments: @email
+<hr>
+
+<me>i'm starting this idea of doing cocoa for artists</me>
+
+<somebody>what do you mean?</somebody>
+
+<me>kinda like cocoa for scientists</me><br>
+<me>but with more on the artistic side</me><br>
+<me>some kind of mashup like processing meets cocoa for scientists</me>
+
+<somebody>that could be interesting</somebody>
+
+<me>i hope so</me>
+
+<hr>
+
+<somebody>I'm trying to decide how I feel about the setup/draw structure</somebody><br>
+<somebody>...if there are reasons to deviate</somebody>
+
+<me>actually, it was the easiest way to get started</me><br>
+<me>totally open to rethink how it's structured</me></br>
+
+<somebody>I don't like setup/draw because I feel like it cheats the user somehow</somebody><br>
+<somebody>...preventing them from  benefitting from nice platform features</somebody>
+
+<somebody>They might work in OF or P5</somebody><br>
+<somebody>...but you don't have to worry about being cross platform</somebody><br>
+
+<me>how so?</me><br>
+<me>setup is designed to be called at the end of the window's init function</me><br>
+<me>...and draw gets called in drawRect:</me>
+
+<somebody>Well, maybe I don't always want drawrect called.</somebody><br>
+<somebody>Are you calling it with a timer or displaylink?</somebody>
+
+<me>timer</me><br>
+<me>i use a timer so that there's variable control over the framerate</me><br>

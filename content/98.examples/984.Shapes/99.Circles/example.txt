@@ -1,0 +1,26 @@
+title: Circles
+-
+synopsis: This example shows how to draw circles and switch from black to white when the mouse is pressed
+-
+shortsynopsis: draws black or white circles under the mouse
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self background:1.0f];
+    [self drawStyle:EVENTBASED];
+    [CFAShape stroke];
+}
+-(void)draw {
+    if (mouseIsPressed) {
+        [CFAShape fill:0.0f];
+    } else {
+        [CFAShape fill:1.0f];
+    }
+    [CFAShape ellipseWithXPos:mousePos.x yPos:mousePos.y width:80 andHeight:80];
+}
+@end]]></script>

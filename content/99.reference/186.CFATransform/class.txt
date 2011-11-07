@@ -1,0 +1,30 @@
+title: CFATransform
+-
+synopsis: A simple class for transformations (rotations, etc...)
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(void)begin;
++(void)concat;
++(void)end;
+
++(void)translateBy:(NSPoint)point;
++(void)translateByX:(CGFloat)x andY:(CGFloat)y;
++(void)rotateByAngle:(CGFloat)angle;
+
+-(void)begin;
+-(void)concat;
+-(void)end;
+-(void)translateBy:(NSPoint)p;
+-(void)translateByX:(CGFloat)x andY:(CGFloat)y;
+-(void)rotateByAngle:(CGFloat)angle;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+relatedexamples: links to related examples

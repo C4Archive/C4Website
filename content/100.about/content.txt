@@ -1,0 +1,21 @@
+title: ABOUT
+-
+synopsis:
+something completely boring here
+-
+content:
+@minilogo is a project inspired by @processing and @macresearch to promote software literacy, in design, research and the arts. This is a first step in a direction towards making Cocoa, and the programming language Objective-C, more accessible with a focus on the artistic side of application development and the production of new kinds of computer-aided art practice. Furthermore, a key part of why we're developing @minilogo is to be able to make it easier for people to create innovative new applications, software and experiences which can be easily distributed on a variety of different devices.
+<br><br>
+Cocoa is a very extensive set of frameworks which are tightly integrated into the hardware of all Apple computers and devices. This integration makes it an ideal language for harnessing the computing power of the computer, or device, so that applications run smoothly and efficiently.
+<br><br>
+Whether you're building installations or new kinds of artistic software, and you're working on a Mac, Objective-C is the most ideal language with which you can create.
+<br><br>
+While there are tons of resources for learning Objective-C, there isn’t much material specifically oriented towards artists.
+<br><br>
+Through @minilogo we’re hoping to make a very reliable and powerful programming language accessible and easy to use for creative exploration and the production of new forms of art.
+<br><br>
+@minilogo was founded in 2010, by @travis, with its first development generously supported by @ce3c
+<br><br>
+The project is currently in an <b>alpha</b> stage so please bear with us...
+<br><br>
+T

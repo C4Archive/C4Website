@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>» Multi Image</title>
+		<link rel="alternate" type="application/atom+xml" href="../../../?/feed/">
+		<link rel="stylesheet" href="../../../public/docs/css/c4a_style.css" type="text/css" media="screen">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="../../../public/docs/js/jquery.cycle.min.js"></script>
+		<script src="../../../public/docs/js/tallest.js"></script>
+        <link rel="icon" type="image/png" href="../../../public/images/favicon.ico">
+
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,500,500italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../../../public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="../../../public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../../../public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18444113-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+	<body>
+		<div id="navigation">
+			<a href="../../../" id="logo"><img src="../../../public/images/C4Logo.png"></a>
+<ul>			
+		<li><a href="../../../about/" id="mainnav_section"   >ABOUT</a></li>
+					
+			<li><a href="../../../reference/" id="mainnav_section"   >REFERENCE</a></li>
+					
+			<li><a href="../../../examples/" id="mainnav_section"  class="current"  class="current" >EXAMPLES</a></li>
+					
+					<ul>
+						<li><a href="../../../examples/Basics/" id="mainnav_subsection"  >➘ Basics</a></li>
+						<li><a href="../../../examples/Advanced/" id="mainnav_subsection"  >Advanced</a></li>
+						<li><a href="../../../examples/Arrays/" id="mainnav_subsection"  >Arrays</a></li>
+						<li><a href="../../../examples/C4/" id="mainnav_subsection"  >C4</a></li>
+						<li><a href="../../../examples/Color/" id="mainnav_subsection"  >Color</a></li>
+						<li><a href="../../../examples/Control/" id="mainnav_subsection"  >Control</a></li>
+						<li><a href="../../../examples/Data/" id="mainnav_subsection"  >Data</a></li>
+						<li><a href="../../../examples/DateTime/" id="mainnav_subsection"  >Date & Time</a></li>
+						<li><a href="../../../examples/Font/" id="mainnav_subsection"  >Font</a></li>
+						<li><a href="../../../examples/Image/" id="mainnav_subsection"  class="current" >Image</a></li>
+						<li><a href="../../../examples/KeyboardMouse/" id="mainnav_subsection"  >KeyboardMouse</a></li>
+						<li><a href="../../../examples/Math/" id="mainnav_subsection"  >Math</a></li>
+						<li><a href="../../../examples/Movie/" id="mainnav_subsection"  >Movies</a></li>
+						<li><a href="../../../examples/Noise/" id="mainnav_subsection"  >Noise</a></li>
+						<li><a href="../../../examples/Number/" id="mainnav_subsection"  >Numbers</a></li>
+						<li><a href="../../../examples/Objects/" id="mainnav_subsection"  >Objects</a></li>
+						<li><a href="../../../examples/OpenGL/" id="mainnav_subsection"  >OpenGL</a></li>
+						<li><a href="../../../examples/Shapes/" id="mainnav_subsection"  >Shapes</a></li>
+						<li><a href="../../../examples/Sounds/" id="mainnav_subsection"  >Sounds</a></li>
+						<li><a href="../../../examples/Transforms/" id="mainnav_subsection"  >Transforms</a></li>
+						<li><a href="../../../examples/Vector/" id="mainnav_subsection"  >Vector</a></li>
+						<li><a href="../../../examples/Voice/" id="mainnav_subsection"  >Voice</a></li>
+			
+		</ul>
+			<li><a href="../../../contact/" id="mainnav_section"   >CONTACT</a></li>
+					
+			<li><a href="../../../friends/" id="mainnav_section"   >FRIENDS</a></li>
+					
+			<li><a href="../../../downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+					
+			<li><a href="../../../projects/" id="mainnav_section"   >PROJECTS</a></li>
+					
+		
+</ul>
+		</div>
+		<div id="content">
+			<p id="title">Multi Image</p>
+			<p>This example shows how to create and draw more than one image at a time</p>
+			<div id="media">
+      	<div class="image">
+		<img src="../../../content/98.examples/993.Image/97.MultiImage/01.png" alt="Multi Image" width="480" height="422">
+    
+	</div>
+
+  
+  
+  
+  
+  
+  
+  
+</div>
+			<p id="codecontent"><script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAImage *backgroundImage, *foregroundImage;
+
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    backgroundImage = [CFAImage imageName:@"C4Wood.png"];
+    foregroundImage = [CFAImage imageName:@"C4Sky" andType:@"png"];
+}
+-(void)draw {
+    [backgroundImage drawAt:NSZeroPoint];
+    [foregroundImage drawAt:self.centerPos
+                  withWidth:self.canvasWidth/2 
+                  andHeight:self.canvasHeight/2];
+}
+@end]]></script>
+</p>
+		</div>
+	</body>
+</html>
+<!-- Stacey(2.3.0): 97e2ff8bb76e92ac5b9c7e8123467356 -->

@@ -1,0 +1,14 @@
+title: Other Code
+-
+synopsis:
+something completely boring here
+-
+content: 
+
+While most of the code (and webstuff) in C4A is original, we're using a few additions:
+
+@perlinnoise (although we did add @gcd threading to it...)
+
+@staceyapp (the content management system for the site)
+
+@syntaxhighlighter (for code coloring on the website)

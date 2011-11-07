@@ -1,0 +1,21 @@
+title: CFANoise
+-
+synopsis: An optimized Perlin Noise class.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(CGFloat)noiseX:(CGFloat)x;
++(CGFloat)noiseX:(CGFloat)x Y:(CGFloat)y;
++(CGFloat)noiseX:(CGFloat)x Y:(CGFloat)y Z:(CGFloat)z;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-relatedexamples: links to related examples

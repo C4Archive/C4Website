@@ -1,0 +1,53 @@
+title: CFAMovie
+-
+synopsis: A simple class for playback and control of movies.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(CFAMovie *)movieName:(id)aName;
++(CFAMovie *)movieName:(id)aName andType:(id)aType;
+-(id)initWithMovieName:(id)aName;
+-(id)initWithMovieName:(id)aName andType:(id)aType;
+
+-(void)play;
+-(void)stop;
+-(void)goToBeginning;
+-(CGFloat)rate;
+-(void)setRate:(CGFloat)newRate;
+-(CGFloat)volume;
+-(void)setVolume:(CGFloat)newVolume;
+-(CGFloat)movieLength;
+-(BOOL)muted;
+-(void)setMuted:(BOOL)mute;
+-(void)goToTime:(CGFloat)aTime;
+-(void)eject;
+-(void)setLoops:(BOOL)loops;
+-(void)moveLayerDown;
+-(void)moveLayerUp;
+-(void)moveBelow:(CALayer *)anotherLayer;
+-(void)moveAbove:(CALayer *)anotherLayer;
+-(void)setX:(CGFloat)x;
+-(void)setY:(CGFloat)y;
+-(void)setX:(CGFloat)x andY:(CGFloat)y;
+-(void)setLocation:(NSPoint)point;
+
+-(void)setWidth:(CGFloat)width;
+-(void)setHeight:(CGFloat)height;
+-(void)setWidth:(CGFloat)width andHeight:(CGFloat)height;
+-(void)setSize:(NSSize)newSize;
+
+-(void)rectMode:(NSInteger)mode;
+
+-(void)setX:(CGFloat)x andY:(CGFloat)y withWidth:(CGFloat)width andHeight:(CGFloat)height;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-relatedexamples: links to related examples

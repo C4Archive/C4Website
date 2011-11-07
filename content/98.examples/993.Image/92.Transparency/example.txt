@@ -1,0 +1,29 @@
+title: Image Transparency
+-
+synopsis: This example creates a stretched transparent image that slides over top of a background image
+-
+shortsynopsis: creates a sliding transparent image over top of another
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAImage *background, *foreground;
+float offset;
+
+@implementation CFACanvas
+-(void)setup {
+    [self drawStyle:ANIMATED];
+    [self windowWidth:400 andHeight:320];
+    background = [CFAImage imageName:@"C4Wood.png"];
+    foreground = [CFAImage imageName:@"C4Sky.png"];
+}
+-(void)draw {
+    [self backgroundImage:background];
+    [foreground drawAt:NSMakePoint(mousePos.x-400, 80) 
+             withWidth:800 
+             andHeight:160 
+             withAlpha:0.66];
+}
+@end]]></script>

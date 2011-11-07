@@ -1,0 +1,37 @@
+title: Variable Ellipses
+-
+synopsis: This example combines variables and if statements to create a colorful range of small circles which change in size
+-
+shortsynopsis: combines variables and if statements
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+int size = 80;
+int direction = -1;
+int step = 1;
+
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self drawStyle:ANIMATED];
+}
+-(void)draw {
+    if(mouseIsPressed){
+        [CFAShape stroke:1.0f];
+        [CFAShape fill:0.0f];
+    } else {
+        [CFAShape stroke:0.0f];
+        [CFAShape fillRed:mousePos.x/self.canvasWidth green:mousePos.y/self.canvasWidth blue:0.0f];
+    }
+    
+    [CFAShape ellipseWithXPos:mousePos.x yPos:mousePos.y width:size andHeight:size];
+    size = size + direction*step;
+    if (size == 10 || size == 90) {
+        direction = direction * -1;
+    }
+}
+
+@end]]></script>

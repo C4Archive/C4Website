@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>C4A</title>
+		<link rel="alternate" type="application/atom+xml" href="../../?/feed/">
+		<link rel="stylesheet" href="../../public/docs/css/c4a_style.css" type="text/css" media="screen">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="../../public/docs/js/jquery.cycle.min.js"></script>
+		<script src="../../public/docs/js/tallest.js"></script>
+		
+        <link rel="icon" type="image/png" href="../../public/images/favicon.ico">
+
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,500,500italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../../public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+</head>
+
+	<body>
+		<div id="navigation">
+      		<nav class="col five">
+	<a href="../../" id="logo"><img src="../../public/images/C4ALogo.png"></a>
+	<ul>
+				<li><a href="../../about/" id="mainnav_section"   >ABOUT</a></li>
+						
+					<li><a href="../../reference/" id="mainnav_section"  class="current"  class="current" >REFERENCE</a></li>
+						
+								<ul>
+								<li><a href="../../reference/CFACanvas/" id="mainnav_subsection"  >CFACanvas</a></li>
+								<li><a href="../../reference/CFAColor/" id="mainnav_subsection" class="current"  class="current" >CFAColor</a></li>
+								<li><a href="../../reference/CFADateTime/" id="mainnav_subsection"  >CFADateTime</a></li>
+								<li><a href="../../reference/CFAShape/" id="mainnav_subsection"  >CFAShape</a></li>
+								<li><a href="../../reference/CFAFont/" id="mainnav_subsection"  >CFAFont</a></li>
+								<li><a href="../../reference/CFAFoundation/" id="mainnav_subsection"  >CFADateTime</a></li>
+								<li><a href="../../reference/CFAGradient/" id="mainnav_subsection"  >CFAGradient</a></li>
+								<li><a href="../../reference/CFAImage/" id="mainnav_subsection"  >CFAImage</a></li>
+								<li><a href="../../reference/CFAMath/" id="mainnav_subsection"  >CFAMath</a></li>
+								<li><a href="../../reference/CFAMovie/" id="mainnav_subsection"  >CFAMovie</a></li>
+								<li><a href="../../reference/CFANoise/" id="mainnav_subsection"  >CFANoise</a></li>
+								<li><a href="../../reference/CFAObject/" id="mainnav_subsection"  >CFAObject</a></li>
+								<li><a href="../../reference/CFASound/" id="mainnav_subsection"  >CFASound</a></li>
+								<li><a href="../../reference/CFAString/" id="mainnav_subsection"  >CFAString</a></li>
+								<li><a href="../../reference/CFATransform/" id="mainnav_subsection"  >CFATransform</a></li>
+								<li><a href="../../reference/CFAVector/" id="mainnav_subsection"  >CFAVector</a></li>
+								<li><a href="../../reference/CFAVoice/" id="mainnav_subsection"  >CFAVoice</a></li>
+				
+			</ul>
+					<li><a href="../../examples/" id="mainnav_section"   >EXAMPLES</a></li>
+						
+					<li><a href="../../contact/" id="mainnav_section"   >CONTACT</a></li>
+						
+					<li><a href="../../friends/" id="mainnav_section"   >FRIENDS</a></li>
+						
+					<li><a href="../../downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+						
+					<li><a href="../../projects/" id="mainnav_section"   >PROJECTS</a></li>
+						
+			
+	</ul>
+</nav>
+		</div>
+		<div id="content">
+			<p id="title">CFAColor</p>
+			<p>A simple color class.</p>
+			
+		</div>
+	</body>
+</html>
+<!-- Stacey(2.3.0): 612f9930911f0616186a76366f2d2392 -->

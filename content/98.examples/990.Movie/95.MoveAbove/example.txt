@@ -1,0 +1,48 @@
+title: Move Above 
+-
+synopsis: This example illustrates a unique characteristic of movie objects by showing how to position one movie over top of another
+
+Because movies are actually "layers" you can tell one to move over top of the other (and vice versa)
+
+If there are many movies you can specify which layer you want a movie to draw into as well
+-
+shortsynopsis: puts one movie over top of another, based on mouse clicks
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAMovie *movieA, *movieB, *movieC, *movieD;
+
+@implementation CFACanvas
+
+-(void)setup {
+    [self drawStyle:ANIMATED];
+    [self windowWidth:400 andHeight:320];
+    movieA = [CFAMovie movieName:@"C4.mov"];
+    movieB = [CFAMovie movieName:@"C4.mov"];
+    
+    [movieA setX:50];
+    [movieA setY:self.centerPos.y-80];
+    
+    [movieB setX:150];
+    [movieB setY:self.centerPos.y-80];
+    
+    [movieA setLoops:YES];
+    [movieB setLoops:YES];
+    
+    [movieB goToTime:2.0f];
+    
+    [movieA play];
+    [movieB play];
+}
+
+-(void)mouseClicked {
+    [movieA moveAbove:movieB];
+}
+
+-(void)mouseDoubleClicked {
+    [movieB moveAbove:movieA];
+}
+@end]]></script>

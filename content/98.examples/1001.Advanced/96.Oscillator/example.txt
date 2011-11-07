@@ -1,0 +1,88 @@
+title: Oscillator
+-
+synopsis: This example combines some advanced iteration tricks (FOR loops) with direction and variable colors. It's a rip from <a href="http://www.hypeframework.org/02_examples/oscillator/content/03_oscillator/" target="_blank">hypeframework</a> but instead of using an oscillator object, it calculates the position and sizes of each line.
+-
+shortsynopsis: is a rip from <a href="http://www.hypeframework.org/02_examples/oscillator/content/03_oscillator/" target="_blank">hypeframework</a>...
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+@interface CFACanvas ()
+-(void)animatedLine:(int)rectHeight andXPos:(int)xPos;
+@end
+
+int maxHeight;
+int minHeight;
+int step;
+
+int rectHeight;
+int direction;
+
+int startHeight;
+int startdir;
+
+int bars;
+
+NSArray *colorArray;
+
+@implementation CFACanvas
+
+-(void)setup {
+	[self drawStyle:DISPLAYRATE];
+	[self windowWidth:400 andHeight:320];
+    [CFAShape fill];
+    [CFAShape rectMode:CENTER];
+    [CFAShape noStroke];
+    
+    maxHeight = self.canvasHeight/2;
+    minHeight = 6;
+    step = 12;
+    
+    startHeight = 100;
+    startdir = -1;
+    
+    bars = self.canvasWidth/5;
+    NSMutableArray *mutableColorArray = [[[NSMutableArray alloc] initWithCapacity:0] autorelease];
+    for(int i = 0; i < bars; i++){
+        [mutableColorArray addObject:[CFAColor colorWithRed:[CFAMath randomInt:75]/100.0f+0.15
+                                                      green:[CFAMath randomInt:50]/100.0f+0.25
+                                                       blue:[CFAMath randomInt:50]/100.0f+0.15]];
+    }
+    colorArray = [[NSArray alloc] initWithArray:mutableColorArray];
+}
+
+-(void)draw {
+    [self background:1.0f];
+    
+    rectHeight = startHeight;
+    direction = startdir;
+    
+    for(int aVariable = 5; aVariable <= self.canvasWidth; aVariable +=7) {		
+        [CFAShape fillColor:[colorArray objectAtIndex:aVariable%bars]];
+        rectHeight = rectHeight + direction *step ;
+        
+        if(rectHeight < minHeight) rectHeight = minHeight;
+        if(rectHeight > maxHeight) rectHeight = maxHeight;
+        
+        if(rectHeight >= maxHeight || rectHeight <= minHeight){
+            direction = direction * -1 ;
+        }
+        
+        [self animatedLine:rectHeight andXPos:aVariable];
+    }
+    
+    startHeight = startHeight + startdir * step;
+    if(startHeight < minHeight) startHeight = minHeight;
+    if(startHeight > maxHeight) startHeight = maxHeight;
+    if(startHeight >= maxHeight || startHeight <= minHeight){
+        startdir = startdir * -1 ;
+    }
+}
+
+-(void)animatedLine:(int)rectHeight andXPos:(int)xPos{
+    [CFAShape rectWithXPos:xPos yPos:self.canvasHeight/2 width:6 andHeight:rectHeight];
+}
+
+@end]]></script>

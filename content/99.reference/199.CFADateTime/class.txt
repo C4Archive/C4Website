@@ -1,0 +1,59 @@
+title: CFADateTime
+-
+synopsis: A simple class for accessing dates and times.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(NSInteger)day;
++(NSString *)dayString;
++(NSString *)daySuffix;
++(NSInteger)hour;
++(NSString *)hourString;
++(NSInteger)minute;
++(NSString *)minuteString;
++(NSInteger)week;
++(NSString *)weekString;
++(NSInteger)month;
++(NSInteger)millis;
++(NSString *)monthString;
++(NSInteger)second;
++(NSString *)secondString;
++(NSInteger)year;
++(NSInteger)weekday;
++(NSString *)weekdayString;
++(NSString *)dayName;
++(NSString *)monthName;
+
+-(NSString *)dayName;
+-(NSString *)monthName;
+
+-(NSInteger)day;
+-(NSString *)dayString;
+-(NSString *)daySuffix;
+-(NSInteger)hour;
+-(NSString *)hourString;
+-(NSInteger)minute;
+-(NSString *)minuteString;
+-(NSInteger)week;
+-(NSString *)weekString;
+-(NSInteger)month;
+-(NSString *)monthString;
+-(NSInteger)millis;
+
+-(NSInteger)second;
+-(NSString *)secondString;
+-(NSInteger)year;
+
+-(NSInteger)weekday;
+-(NSString *)weekdayString;]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-relatedexamples: links to related examples

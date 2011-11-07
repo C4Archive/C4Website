@@ -1,0 +1,23 @@
+title: System Sounds
+-
+synopsis: This example shows how to create and play one of the system sounds found on OSX, the sound used in this example is HERO but the sounds you can use are:
+
+<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+BASSO, BLOW, BOTTLE, FROG, FUNK, GLASS, HERO, MORSE, PING, POP, 
+PURR, SOSUMI, SUBMARINE, TINK
+]]></script>
+
+You can hear each sound swapping one of the names above into the code below
+
+-
+shortsynopsis: plays an OSX sound
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+-(void)setup {
+    [[CFASound systemSound:HERO] play];
+}
+@end]]></script>

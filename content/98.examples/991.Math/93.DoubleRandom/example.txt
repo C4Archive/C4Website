@@ -1,0 +1,41 @@
+title: Double Random
+-
+synopsis: This example embeds a random function within a random function to create a noisy distribution of points
+-
+shortsynopsis: random random noisy distribution
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+int totalPoints;
+float steps;
+int randomValue;
+
+@implementation CFACanvas 
+-(void)setup {
+    [self drawStyle:EVENTBASED];
+    [self windowWidth:400 andHeight:320];
+    [CFAShape fill:1.0f];
+    
+    totalPoints = self.canvasWidth;
+    steps = totalPoints + 1;
+    randomValue = 0;
+    [self background:0];
+}
+
+-(void)draw {
+    randomValue = 0;
+    [self background:0];
+    for(int i = 1; i < steps; i++){
+        int mod = 0;
+        while (mod == 0) {
+            mod = [CFAMath randomIntBetweenA:-1 andB:1];
+        }
+        [CFAShape pointAtX:self.canvasWidth/steps*i 
+                         Y:self.canvasHeight/2 + mod*randomValue];
+        randomValue += [CFAMath randomIntBetweenA:-10 andB:10];
+    }
+}
+@end]]></script>

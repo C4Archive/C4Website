@@ -1,0 +1,28 @@
+title: CFAObject
+-
+synopsis: A basic object class which allows for automatic updating and listening
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+-(void)listenFor:(NSString *)aNotification andRunMethod:(NSString *)aMethodName;
+-(void)stopListeningFor:(NSString *)aMethodName;
+-(void)postNotification:(NSString *)aNotification;
+
+-(void)update;
+-(void)updateAutomaticallyUsingSeconds:(CGFloat)seconds;
+-(void)updateAutomaticallyUsingFrames:(NSInteger)frames;
+-(void)stopUpdating;
+
+-(BOOL)isUpdating;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-relatedexamples: links to related examples

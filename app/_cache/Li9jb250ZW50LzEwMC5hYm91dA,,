@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>» ABOUT</title>
+		<link rel="alternate" type="application/atom+xml" href="../?/feed/">
+		<link rel="stylesheet" href="../public/docs/css/c4a_style.css" type="text/css" media="screen">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="../public/docs/js/jquery.cycle.min.js"></script>
+		<script src="../public/docs/js/tallest.js"></script>
+        <link rel="icon" type="image/png" href="../public/images/favicon.ico">
+
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,500,500italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="../public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18444113-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+	<body>
+		<div id="navigation">
+			<a href="../" id="logo"><img src="../public/images/C4Logo.png"></a>
+<ul>			
+		<li><a href="../about/" id="mainnav_section" class="current"  class="current"  class="current" >ABOUT</a></li>
+					
+					<ul>
+						<li><a href="../about/people/" id="mainnav_subsection"  >People</a></li>
+						<li><a href="../about/othercode/" id="mainnav_subsection"  >Other Code</a></li>
+						<li><a href="../about/support/" id="mainnav_subsection"  >Support</a></li>
+			
+		</ul>
+			<li><a href="../reference/" id="mainnav_section"   >REFERENCE</a></li>
+					
+			<li><a href="../examples/" id="mainnav_section"   >EXAMPLES</a></li>
+					
+			<li><a href="../contact/" id="mainnav_section"   >CONTACT</a></li>
+					
+			<li><a href="../friends/" id="mainnav_section"   >FRIENDS</a></li>
+					
+			<li><a href="../downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+					
+			<li><a href="../projects/" id="mainnav_section"   >PROJECTS</a></li>
+					
+		
+</ul>
+		</div>
+	 	<div id="content">
+			<p id="title">ABOUT<p>
+			<p><p><img src="../public/images/C4LogoMini.png"> is a project inspired by <a href="http://www.processing.org" target="_blank">Processing</a> and <a href="http://www.macresearch.org" target="_blank">MacResearch</a> to promote software literacy, in design, research and the arts. This is a first step in a direction towards making Cocoa, and the programming language Objective-C, more accessible with a focus on the artistic side of application development and the production of new kinds of computer-aided art practice. Furthermore, a key part of why we're developing <img src="../public/images/C4LogoMini.png"> is to be able to make it easier for people to create innovative new applications, software and experiences which can be easily distributed on a variety of different devices.
+<br><br>
+Cocoa is a very extensive set of frameworks which are tightly integrated into the hardware of all Apple computers and devices. This integration makes it an ideal language for harnessing the computing power of the computer, or device, so that applications run smoothly and efficiently.
+<br><br>
+Whether you're building installations or new kinds of artistic software, and you're working on a Mac, Objective-C is the most ideal language with which you can create.
+<br><br>
+While there are tons of resources for learning Objective-C, there isn’t much material specifically oriented towards artists.
+<br><br>
+Through <img src="../public/images/C4LogoMini.png"> we’re hoping to make a very reliable and powerful programming language accessible and easy to use for creative exploration and the production of new forms of art.
+<br><br>
+<img src="../public/images/C4LogoMini.png"> was founded in 2010, by <a class="menulink" href="http://www.postfl.com/" target="_blank">Travis Kirton</a>, with its first development generously supported by <a class="menulink" href="http://www.ce3c.com/" target="_blank">CE3C</a>
+<br><br>
+The project is currently in an <b>alpha</b> stage so please bear with us...
+<br><br>
+T</p>
+<p>
+		</div>
+	</body>
+</html>	
+
+<!-- Stacey(2.3.0): 02895bfc3738c445a3e3426f96198916 -->

@@ -1,0 +1,31 @@
+title: Background Image
+-
+synopsis: This example shows how to use an image as the canvas background, rather than a color
+-
+shortsynopsis: image as the canvas background
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAImage *bg;
+int y;
+
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self drawStyle:DISPLAYRATE];
+    
+    y = 0;
+    bg = [CFAImage imageName:@"C4Sky" andType:@"png"];
+    [CFAShape stroke:1.0f];
+}
+-(void)draw {
+    [self backgroundImage:bg];
+    y ++;
+    if(y > self.canvasHeight) y = 0;
+    
+    [CFAShape lineFromX:0 Y:y toX:self.canvasWidth Y:y];
+}
+@end]]></script>

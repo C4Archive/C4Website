@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>C4A</title>
+		<link rel="alternate" type="application/atom+xml" href="../../../?/feed/">
+		<link rel="stylesheet" href="../../../public/docs/css/c4a_style.css" type="text/css" media="screen"> 
+		<link rel="icon" 
+		      type="image/png" 
+		      href="../../../public/images/favicon.ico">
+
+			<link rel="stylesheet" href="../../../public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="../../../public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../../../public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+</head>
+
+	<body>
+		<nav class="col five">
+	<a href="../../../" id="logo"><img src="../../../public/images/C4ALogo.png"></a>
+	<ul>
+				<li><a href="../../../about/" id="mainnav_section"   >ABOUT</a></li>
+						
+					<li><a href="../../../reference/" id="mainnav_section"   >REFERENCE</a></li>
+						
+					<li><a href="../../../examples/" id="mainnav_section"  class="current"  class="current" >EXAMPLES</a></li>
+						
+								<ul>
+								<li><a href="../../../examples/Advanced/" id="mainnav_subsection"  >Advanced</a></li>
+								<li><a href="../../../examples/Arrays/" id="mainnav_subsection"  >Arrays</a></li>
+								<li><a href="../../../examples/Color/" id="mainnav_subsection"  >Color</a></li>
+								<li><a href="../../../examples/Control/" id="mainnav_subsection"  >Control</a></li>
+								<li><a href="../../../examples/Data/" id="mainnav_subsection"  >Data</a></li>
+								<li><a href="../../../examples/DateTime/" id="mainnav_subsection"  >Date & Time</a></li>
+								<li><a href="../../../examples/Font/" id="mainnav_subsection"  >Font</a></li>
+								<li><a href="../../../examples/Image/" id="mainnav_subsection"  >Image</a></li>
+								<li><a href="../../../examples/Input/" id="mainnav_subsection"  class="current" >Input</a></li>
+								<li><a href="../../../examples/Math/" id="mainnav_subsection"  >Math</a></li>
+								<li><a href="../../../examples/Movie/" id="mainnav_subsection"  >Movies</a></li>
+								<li><a href="../../../examples/Noise/" id="mainnav_subsection"  >Noise</a></li>
+								<li><a href="../../../examples/Number/" id="mainnav_subsection"  >Numbers</a></li>
+								<li><a href="../../../examples/Object/" id="mainnav_subsection"  >Objects</a></li>
+								<li><a href="../../../examples/OpenGL/" id="mainnav_subsection"  >OpenGL</a></li>
+								<li><a href="../../../examples/Shapes/" id="mainnav_subsection"  >Shapes</a></li>
+								<li><a href="../../../examples/Sounds/" id="mainnav_subsection"  >Sounds</a></li>
+								<li><a href="../../../examples/String/" id="mainnav_subsection"  >Strings</a></li>
+								<li><a href="../../../examples/Structure/" id="mainnav_subsection"  >Structure</a></li>
+								<li><a href="../../../examples/Transforms/" id="mainnav_subsection"  >Transforms</a></li>
+								<li><a href="../../../examples/Vector/" id="mainnav_subsection"  >Vector</a></li>
+								<li><a href="../../../examples/Voice/" id="mainnav_subsection"  >Voice</a></li>
+				
+			</ul>
+					<li><a href="../../../contact/" id="mainnav_section"   >CONTACT</a></li>
+						
+					<li><a href="../../../friends/" id="mainnav_section"   >FRIENDS</a></li>
+						
+					<li><a href="../../../downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+						
+			
+	</ul>
+</nav>
+		<div id="content">
+			<p id="title">Generic</p>
+			<p>This is a generic example</p>
+			<div id="media">
+      	<div class="image">
+		<img src="../../../content/98.examples/992.Input/99.example99/01.png" alt="Generic" width="280" height="302">
+    
+	</div>
+
+  
+  
+  
+  
+  
+  
+  
+</div>
+			<p><script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+NSObject *o = [[[NSObject alloc] init] retain];
+]]></script>
+</p>
+		</div>
+	</body>
+</html>
+<!-- Stacey(2.3.0): 159402afb044b543c8a83fa719772ea0 -->

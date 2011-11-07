@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>» HELP!!!!</title>
+		<link rel="alternate" type="application/atom+xml" href="../../?/feed/">
+		<link rel="stylesheet" href="../../public/docs/css/c4a_style.css" type="text/css" media="screen">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="../../public/docs/js/jquery.cycle.min.js"></script>
+		<script src="../../public/docs/js/tallest.js"></script>
+        <link rel="icon" type="image/png" href="../../public/images/favicon.ico">
+
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,500,500italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../../public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18444113-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+	<body>
+		<div id="navigation">
+			<a href="../../" id="logo"><img src="../../public/images/C4Logo.png"></a>
+<ul>			
+		<li><a href="../../about/" id="mainnav_section"   >ABOUT</a></li>
+					
+			<li><a href="../../reference/" id="mainnav_section"   >REFERENCE</a></li>
+					
+			<li><a href="../../examples/" id="mainnav_section"   >EXAMPLES</a></li>
+					
+			<li><a href="../../contact/" id="mainnav_section"   >CONTACT</a></li>
+					
+			<li><a href="../../friends/" id="mainnav_section"   >FRIENDS</a></li>
+					
+			<li><a href="../../downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+					
+			<li><a href="../../projects/" id="mainnav_section"  class="current"  class="current" >PROJECTS</a></li>
+					
+					<ul>
+						<li><a href="../../projects/ThingTank/" id="mainnav_subsection"  >Idea Jam</a></li>
+						<li><a href="../../projects/WeNeedYourHelp/" id="mainnav_subsection" class="current"  class="current" >HELP!!!!</a></li>
+			
+		</ul>
+		
+</ul>
+		</div>
+	 	<div id="content">
+			<p id="title">HELP!!!!<p>
+            <p>We just launched and have only examples...</p>
+			<p>We just launched this site, after months of working on the framework and building an alpha codebase. But, at the moment we have only the examples on this site to showcase, and we'd love to have some projects built by other people. If you have something you've created using <img src="../../public/images/C4LogoMini.png"> let us know what you've been working on.<p>
+			<div id="media">
+      	<div class="image">
+		<img src="../../content/94.projects/99.WeNeedYourHelp/02.png" alt="HELP!!!!" width="744" height="400">
+    
+	</div>
+	<div class="image">
+		<img src="../../content/94.projects/99.WeNeedYourHelp/01.png" alt="HELP!!!!" width="744" height="400">
+    
+	</div>
+
+  
+  
+  
+  
+  
+  
+  
+</div>
+		</div>
+	</body>
+</html>	
+<!-- Stacey(2.3.0): 02895bfc3738c445a3e3426f96198916 -->

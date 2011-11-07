@@ -1,0 +1,48 @@
+title: Current Date and Time
+-
+synopsis: This example shows how to work with C4's DateTime class, it introduces the difference between formatted and unformatted strings
+-
+shortsynopsis: shows the date and time on your computer in different formats
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+@implementation CFACanvas
+-(void)setup {
+    [self drawStyle:DISPLAYRATE];
+    [self windowWidth:400 andHeight:320];
+    [CFAString fill:1];
+}
+-(void)draw {
+    [self background:0];
+    CFAString *theDate = 
+    [CFAString stringWithFormat:@"Today is %@ %@ the %@%@, %d",
+     [CFADateTime dayName], 
+     [CFADateTime monthName], 
+     [CFADateTime dayString],
+     [CFADateTime daySuffix],
+     [CFADateTime year]];
+    
+    CFAString *theTime = 
+    [CFAString stringWithFormat:@"The time is %@:%@:%@",
+     [CFADateTime hourString],
+     [CFADateTime minuteString],
+     [CFADateTime secondString]];
+    
+    
+    CFAString *asNumbers = 
+    [CFAString stringWithFormat:@"%d/%d/%d - %d:%d:%d",
+     [CFADateTime day],
+     [CFADateTime month],
+     [CFADateTime year],
+     [CFADateTime hour],
+     [CFADateTime minute],
+     [CFADateTime second]];
+
+    [theDate drawAtPoint:NSMakePoint(20, 200)];
+    [theTime drawAtPoint:NSMakePoint(20, 160)];
+    [asNumbers drawAtPoint:NSMakePoint(20, 120)];
+}
+@end]]></script>

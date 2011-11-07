@@ -1,0 +1,13 @@
+title: Font
+-
+synopsis: Examples showing how to work with Generic Objects.
+-
+overview: There should be a list of examples, unique to Generic Objects, with short explanations and maybe even smaller images.
+-
+variables: variables
+-
+classmethods: classmethods
+-
+instancemethods: instancemethods
+-
+relatedexamples: links to related examples

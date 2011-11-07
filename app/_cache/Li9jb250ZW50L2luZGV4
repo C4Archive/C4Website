@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>» C4</title>
+		<link rel="alternate" type="application/atom+xml" href="./?/feed/">
+		<link rel="stylesheet" href="./public/docs/css/c4a_style.css" type="text/css" media="screen">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="./public/docs/js/jquery.cycle.min.js"></script>
+		<script src="./public/docs/js/tallest.js"></script>
+        <link rel="icon" type="image/png" href="./public/images/favicon.ico">
+
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,500,500italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="./public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="./public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="./public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18444113-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+	<body>
+		<div id="navigation">
+			<a href="./" id="logo"><img src="./public/images/C4Logo.png"></a>
+<ul>			
+		<li><a href="./about/" id="mainnav_section"   >ABOUT</a></li>
+					
+			<li><a href="./reference/" id="mainnav_section"   >REFERENCE</a></li>
+					
+			<li><a href="./examples/" id="mainnav_section"   >EXAMPLES</a></li>
+					
+			<li><a href="./contact/" id="mainnav_section"   >CONTACT</a></li>
+					
+			<li><a href="./friends/" id="mainnav_section"   >FRIENDS</a></li>
+					
+			<li><a href="./downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+					
+			<li><a href="./projects/" id="mainnav_section"   >PROJECTS</a></li>
+					
+		
+</ul>
+		</div>
+   		<div id="index_content">
+    		<p>This is the <img src="./public/images/C4LogoMini.png"> Alpha site. There is still a lot of filling in to do, but things seem to work well for the moment.
+<br>
+<br>
+The <a href="./reference">REFERENCE</a> section has all the current methods in it, broken down into class categories. Unfortunately, individual method pages aren't complete.
+<br>
+<br>
+The <a href="./examples">EXAMPLES</a> page is complete, with images and code.
+<br>
+<br>
+For support, you can sign up for the <a href="http://groups.google.com/group/cocoaforartists/" target="_blank">C4 Mailing List</a> and post any questions you have.</p>
+
+    	</div>
+        <div class = "col auto" id= "featured_projects">
+        		  					<a class="thumb" href="./projects/ThingTank/"><img src="./content/94.projects/100.ThingTank/thumb.png" alt="">
+            <span class="over">
+            	<p id="title">Idea Jam</p>
+				<p id="image_discusion"><img src="./public/images/C4LogoMini.png"> will be the focus of a new Idea Jam at ThingTank in Toronto on <b>September 8th, 2011</b> from <b>5-7 pm</b></p>
+            </span> 
+            </a>
+  					<a class="thumb" href="./projects/WeNeedYourHelp/"><img src="./content/94.projects/99.WeNeedYourHelp/thumb.png" alt="">
+            <span class="over">
+            	<p id="title">HELP!!!!</p>
+				<p id="image_discusion">We just launched, but at the moment we have only the examples to show...</p>
+            </span> 
+            </a>
+  		
+    
+
+        </div>
+        <script type="text/javascript" src="./public/docs/js/project_hover.js"></script>
+<div id="footer">
+<div id="plus1">
+	<!-- Place this tag where you want the +1 button to render -->
+	<g:plusone size="medium" count="false"></g:plusone>
+</div>
+	<div id="twittershare">
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="CocoaFor">Tweet</a>
+	</div>
+	<div id="twitterfollow">
+		<a href="http://twitter.com/#!/cocoafor" class="twitter-follow-button" data-show-count="false">Follow @CocoaFor</a>
+	</div>	
+	
+	<!-- Place this tag in your head or just before your close body tag -->
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+	<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+</div>
+	</body>
+</html>
+<!-- Stacey(2.3.0): 02895bfc3738c445a3e3426f96198916 -->

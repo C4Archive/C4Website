@@ -1,0 +1,47 @@
+title: CFAGradient
+-
+synopsis: A simple class for creating gradients.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(void)linearGradientFromPointA:(NSPoint)pointA 
+                       toPointB:(NSPoint)pointB 
+                    usingColorA:(CFAColor *)colorA
+                      andColorB:(CFAColor *)colorB 
+                        inShape:(CGMutablePathRef)shape;
+
++(void)linearGradientFromPointA:(NSPoint)pointA
+                       toPointB:(NSPoint)pointB
+                       toPointC:(NSPoint)pointC
+                    usingColorA:(CFAColor *)colorA
+                      andColorB:(CFAColor *)colorB 
+                      andColorC:(CFAColor*)colorC
+                        inShape:(CGMutablePathRef)shape;
+
++(void)radialGradientFromCenter:(NSPoint)center 
+                      toRadiusA:(CGFloat)radiusA 
+                     andRadiusB:(CGFloat)radiusB 
+                    usingColorA:(CFAColor *)colorA 
+                      andColorB:(CFAColor *)colorB 
+                        inShape:(CGMutablePathRef)shape;
+
++(void)radialGradientFromCenter:(NSPoint)center 
+                      toRadiusA:(CGFloat)radiusA
+                     andRadiusB:(CGFloat)radiusB 
+                     andRadiusC:(CGFloat)radiusC 
+                    usingColorA:(CFAColor *)colorA 
+                      andColorB:(CFAColor *)colorB 
+                      andColorC:(CFAColor *)colorC 
+                        inShape:(CGMutablePathRef)shape;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-relatedexamples: links to related examples

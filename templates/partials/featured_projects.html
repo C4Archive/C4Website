@@ -1,0 +1,12 @@
+get "/projects" do
+	if $children do
+  		foreach $children[:3] do
+			<a class="thumb" href="@url"><img src="@thumb" alt="">
+            <span class="over">
+            	<p id="title">@title</p>
+				<p id="image_discusion">@rollover</p>
+            </span> 
+            </a>
+  		endforeach
+    endif
+end

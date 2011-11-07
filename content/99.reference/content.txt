@@ -1,0 +1,10 @@
+title: REFERENCE
+-
+content: 
+We're working on refining the API, so... A full list of functions won't be up for a while
+
+You'll find brief descriptions of each class, and to really find out how they work you can have a look at the header (.h) and implementation (.m) files in a C4A project.
+
+Actually, we need some help. 
+
+If you're interested, let us know: @email

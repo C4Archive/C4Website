@@ -1,0 +1,74 @@
+-
+null: <a href="http://" target="_blank"></a>
+-
+name: cocoa for artists
+-
+profession: code
+-
+email: <a href="mailto:info@cocoaforartists.org">info@cocoaforartists.org</a>
+-
+macresearch: <a href="http://www.macresearch.org" target="_blank">MacResearch</a>
+-
+processing: <a href="http://www.processing.org" target="_blank">Processing</a>
+-
+tangibleinteraction: <a href="http://www.tangibleinteraction.com" target="_blank">Tangible Interaction Inc.</a>
+-
+xcode4installer: <a href="http://www.cocoaforartists.org/files/C4Installer_2011-10-05.pkg">C4 Installer (XCode 4)</a>
+-
+alex: <a href="http://www.tangibleinteraction.com" target="_blank">Alex Beim</a>
+-
+hideaki: <a href="http://www.howeb.org/" target="_blank">Hideaki Ogawa</a>
+-
+mahir: <a href="http://hyponeiria.com/" target="_blank">Mahir M. Yavuz</a>
+-
+jayme: <a href="http://www.jaymecochrane.com/" target="_blank">Jayme Cochrane</a>
+-
+brady: <a href="http://bradywhitteker.com/" target="_blank">Brady Whitteker</a>
+-
+tatiana: <a href="">Tatiana Mellema</a>
+-
+mar: <a href="http://www.mcanet.info/blog/" target="_blank">Mar Canet</a>
+-
+kyle: <a href="http://buza.mitplw.com/" target="_blank">Kyle Buza</a>
+-
+pendipity: <a href="http://pendipityapp.com/" target="_blank">pendipity</a>
+-
+percolater: <a href="http://percolater.com/" target="_blank">percolater</a>
+-
+kurtis: <a href="http://kulturlab.com/" target="_blank">Kurtis Lesick</a>
+-
+onur: <a class="menulink" href="http://www.onursonmez.com" target="_blank">Onur Sonmez</a>
+-
+davidpenuela: <a class="menulink" href="http://davidpenuela.com/" target="_blank">David Penuela</a>
+-
+travis: <a class="menulink" href="http://www.postfl.com/" target="_blank">Travis Kirton</a>
+-
+didi: <a class="menulink" href="http://didito.gpigs.com/" target="_blank">Dietmar Suoch</a>
+-
+dash:<dash> ⎯</dash>
+-
+logo: <img src="@root_path/public/images/C4Logo.png">
+-
+minilogo: <img src="@root_path/public/images/C4LogoMini.png">
+-
+gcd:<a class="menulink" href="http://developer.apple.com/technologies/mac/snowleopard/gcd.html" target="_blank">GCD</a>
+-
+perlinnoise: <a class="menulink" href="http://en.wikipedia.org/wiki/Perlin_noise" target="_blank">Perlin Noise</a>
+-
+kenperlin:<a class="menulink" href="http://mrl.nyu.edu/~perlin/" target="_blank">Ken Perlin</a>@dash <em>is a research scientist at NYU</em>
+-
+staceyapp: <a class="menulink" href="http://www.staceyapp.com" target="_blank">Stacey</a>
+-
+syntaxhighlighter: <a class="menulink" href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank">SyntaxHighlighter</a>
+-
+ce3c: <a class="menulink" href="http://www.ce3c.com/" target="_blank">CE3C</a>
+-
+acad: <a class="menulink" href="http://www.acad.ab.ca" target="_blank">ACAD</a>
+-
+googlegroup: <a href="http://groups.google.com/group/cocoaforartists/" target="_blank">C4 Mailing List</a>
+-
+thingtank: <a href="http://www.criticalmaking.com/ddimit/" target="_blank">ThingTank</a>
+-
+criticalmaking: <a href="http://www.criticalmaking.com/" target="_blank">Critical Making</a>
+-
+kmdi: <a href="http://kmdi.utoronto.ca/" target="_blank">KMDI</a>

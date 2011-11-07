@@ -1,0 +1,38 @@
+title: CFAImage
+-
+synopsis: An extensive class for working with images, including image filters.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(CFAImage *)imageName:(NSString *)name;
++(CFAImage *)imageName:(NSString *)name andType:(NSString *)type;
++(CFAImage *)imageWithCGImage:(CGImageRef)image;
+
+-(id)initWithImage:(CFAImage *)image;
+-(id)initWithImageName:(NSString *)name;
+-(id)initWithImageName:(NSString *)name andType:(NSString *)type;
+-(id)initWithCGImage:(CGImageRef)image;
+
+-(void)drawAt:(NSPoint)p;
+-(void)drawAt:(NSPoint)p withAlpha:(float)alpha;
+-(void)drawAt:(NSPoint)p withWidth:(float)w andHeight:(float)h;
+-(void)drawAt:(NSPoint)p withWidth:(float)w andHeight:(float)h withAlpha:(float)a;
+-(void)drawInRect:(NSRect)rect;
+-(void)drawInRect:(NSRect)rect withAlpha:(CGFloat)alpha;
+
+-(CGImageRef)cgImage;
+
+-(CFAColor *)colorAtX:(int)x andY:(int)y;
+-(void)loadPixelData;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-relatedexamples: links to related examples

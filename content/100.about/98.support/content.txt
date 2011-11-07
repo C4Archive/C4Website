@@ -1,0 +1,9 @@
+title: Support
+-
+synopsis:
+something completely boring here
+-
+content:
+@acad has helped get this project off the ground, especially the @ce3c lab run by @kurtis.
+
+@kyle has helped quite a bit with good guidance and advice for initial development.

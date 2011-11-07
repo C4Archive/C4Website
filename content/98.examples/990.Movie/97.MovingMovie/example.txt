@@ -1,0 +1,30 @@
+title: Moving Movie
+-
+synopsis: This example shows how to change the position of a movie dynamically, it centres itself on the mouse position
+-
+shortsynopsis: follows the mouse position
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAMovie *simpleMovie;
+
+@implementation CFACanvas
+
+-(void)setup {
+    [self drawStyle:ANIMATED];
+    [self windowWidth:400 andHeight:320];
+    
+    simpleMovie = [CFAMovie movieName:@"C4.mov"];
+    [simpleMovie rectMode:CENTER];
+    [simpleMovie play];
+    [simpleMovie setLoops:YES];
+}
+
+-(void)draw {
+    [simpleMovie setLocation:mousePos];
+}
+
+@end]]></script>

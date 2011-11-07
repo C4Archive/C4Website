@@ -1,0 +1,15 @@
+title: Simple Voice
+-
+synopsis: This example shows how you can easily get your computer to speak
+-
+shortsynopsis: says whatever you want
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+-(void)setup {
+    [CFAVoice speak:@"oh my god you're amazing, please look into my isight"];
+}
+@end]]></script>

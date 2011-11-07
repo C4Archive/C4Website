@@ -1,0 +1,31 @@
+title: FRIENDS
+-
+synopsis:
+here are a few of our friends...
+-
+content:
+@alex <friend> @dash likes to make interactive light</friend>
+
+@brady <friend> @dash makes good and interesting design</friend>
+
+@davidpenuela <friend> @dash is a happy designer</friend>
+
+@didi <friend> @dash is a one-hundred-and-ten-percent stand-up guy</friend>
+
+@hideaki <friend> @dash artist, researcher, virtuoso</friend>
+
+@jayme <friend> @dash designs for lomo</friend>
+
+@kurtis <friend> @dash  was seminal in getting this project going</friend>
+
+@kyle <friend> @dash a developer who recently released the iOS apps: @pendipity and @percolater</friend>
+
+@mahir <friend> @dash is a solid turk, and a great graphic designer</friend>
+
+@mar <friend> @dash is an infovisologist</friend>
+
+@onur <friend> @dash is a bigblackmonkey</friend>
+
+@tatiana <friend> @dash is an art historian and curator</friend>
+
+@travis <friend> @dash is a designer, researcher and artist</friend>

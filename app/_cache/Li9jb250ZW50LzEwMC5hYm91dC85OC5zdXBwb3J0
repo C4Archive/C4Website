@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>» Support</title>
+		<link rel="alternate" type="application/atom+xml" href="../../?/feed/">
+		<link rel="stylesheet" href="../../public/docs/css/c4a_style.css" type="text/css" media="screen">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="../../public/docs/js/jquery.cycle.min.js"></script>
+		<script src="../../public/docs/js/tallest.js"></script>
+        <link rel="icon" type="image/png" href="../../public/images/favicon.ico">
+
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,500,500italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../../public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18444113-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+	<body>
+		<div id="navigation">
+			<a href="../../" id="logo"><img src="../../public/images/C4Logo.png"></a>
+<ul>			
+		<li><a href="../../about/" id="mainnav_section"  class="current"  class="current" >ABOUT</a></li>
+					
+					<ul>
+						<li><a href="../../about/people/" id="mainnav_subsection"  >People</a></li>
+						<li><a href="../../about/othercode/" id="mainnav_subsection"  >Other Code</a></li>
+						<li><a href="../../about/support/" id="mainnav_subsection" class="current"  class="current" >Support</a></li>
+			
+		</ul>
+			<li><a href="../../reference/" id="mainnav_section"   >REFERENCE</a></li>
+					
+			<li><a href="../../examples/" id="mainnav_section"   >EXAMPLES</a></li>
+					
+			<li><a href="../../contact/" id="mainnav_section"   >CONTACT</a></li>
+					
+			<li><a href="../../friends/" id="mainnav_section"   >FRIENDS</a></li>
+					
+			<li><a href="../../downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+					
+			<li><a href="../../projects/" id="mainnav_section"   >PROJECTS</a></li>
+					
+		
+</ul>
+		</div>
+	 	<div id="content">
+			<p id="title">Support<p>
+			<p><p><a class="menulink" href="http://www.acad.ab.ca" target="_blank">ACAD</a> has helped get this project off the ground, especially the <a class="menulink" href="http://www.ce3c.com/" target="_blank">CE3C</a> lab run by <a href="http://kulturlab.com/" target="_blank">Kurtis Lesick</a>.</p>
+
+<p><a href="http://buza.mitplw.com/" target="_blank">Kyle Buza</a> has helped quite a bit with good guidance and advice for initial development.</p>
+<p>
+		</div>
+	</body>
+</html>	
+
+<!-- Stacey(2.3.0): 02895bfc3738c445a3e3426f96198916 -->

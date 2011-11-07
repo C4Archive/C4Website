@@ -1,0 +1,36 @@
+title: Stretching Movie
+-
+synopsis: This example shows how to dynamically change the size of a movie while it is playing, its size is determined by the mouse position
+-
+shortsynopsis: scales based on the mouse position
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAMovie *simpleMovie;
+
+@implementation CFACanvas
+
+-(void)setup {
+    [self drawStyle:ANIMATED];
+    [self windowWidth:400 andHeight:320];
+    
+    simpleMovie = [CFAMovie movieName:@"C4.mov"];
+    [simpleMovie rectMode:CENTER];
+    
+    [simpleMovie setX:self.centerPos.x 
+                 andY:self.centerPos.y 
+            withWidth:self.canvasWidth 
+            andHeight:self.canvasHeight];
+    
+    [simpleMovie play];
+    [simpleMovie setLoops:YES];
+}
+
+-(void)mouseMoved {
+    [simpleMovie setWidth:mousePos.x andHeight:mousePos.y];
+}
+
+@end]]></script>

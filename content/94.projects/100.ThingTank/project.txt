@@ -1,0 +1,23 @@
+title: Idea Jam
+-
+synopsis: We'll be idea jamming at @thingtank on <b>September 8th, 2011</b>
+-
+rollover: @minilogo will be the focus of a new Idea Jam at ThingTank in Toronto on <b>September 8th, 2011</b> from <b>5-7 pm</b>
+-
+content: We're thinking about the future direction of @minilogo, and with the Idea Jam coming up at ThingTank we'll be brainstorming the following questions: 
+
+> 1) (How) Does computational design fit with industrial design & prototyping?
+
+> 2) (How) Would you use code to generate objects & prototypes in your design practice?
+
+> 3) What functionalities should a coding framework for prototyping have?
+
+<i>The event is free to attend, so please drop in!</i>
+
+The event is scheduled on <b>September 8th, 2011</b> from <b>5-7 pm</b>, we'll be presenting second after Alan Majer's idea for home automation.
+
+The address is: <b>376 Bathurst, Toronto, Basement Suite</b>
+
+Also, check out @criticalmaking and @kmdi
+
+<iframe width="744" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=376+Bathurst+St,+Toronto,+ON&amp;sll=49.891235,-97.15369&amp;sspn=34.938697,93.076172&amp;ie=UTF8&amp;hq=&amp;hnear=376+Bathurst+St,+Toronto,+Toronto+Division,+Ontario&amp;view=map&amp;z=14&amp;ll=43.653316,-79.406554&amp;output=embed"></iframe>

@@ -1,0 +1,66 @@
+title: Many Basic Objects
+-
+synopsis: This example creates an array of basic objects and draws them to the canvas
+-
+shortsynopsis: draws an array of objects
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+////////////////////////////////////////////////////////////////
+// The Basic Object
+////////////////////////////////////////////////////////////////
+
+@interface BasicObject : CFAObject {
+    CFAColor *randomColor;
+    NSPoint position;
+    CGFloat radius;
+}
+@end
+
+@implementation BasicObject 
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        randomColor = [[CFAColor colorWithRed:FLOAT_FROM_255([CFAMath randomInt:255])
+                                        green:FLOAT_FROM_255([CFAMath randomInt:255])
+                                         blue:FLOAT_FROM_255([CFAMath randomInt:255])] retain];
+        position = NSMakePoint([CFAMath randomInt:400], [CFAMath randomInt:320]);
+        radius = [CFAMath randomInt:20]+10;
+    }
+    return self;
+}
+
+-(void)draw {
+    [CFAShape noStroke];
+    [CFAShape fillColor:randomColor];
+    [CFAShape circleAt:position radius:radius];
+}
+
+@end
+
+////////////////////////////////////////////////////////////////
+// The Canvas
+////////////////////////////////////////////////////////////////
+
+#import "CFACanvas.h"
+
+NSMutableArray *objectsArray;
+
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    objectsArray = [[[NSMutableArray alloc] initWithCapacity:0] retain];
+    for(int i = 0; i < 300; i++) {
+        BasicObject *b = [[BasicObject alloc] init];
+        [objectsArray addObject:b];
+    }
+}
+
+-(void)draw {
+    [self background:0 alpha:0.005];
+    for(BasicObject *anObject in objectsArray) [anObject draw];
+}
+@end]]></script>

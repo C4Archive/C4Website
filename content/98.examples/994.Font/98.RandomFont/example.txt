@@ -1,0 +1,46 @@
+title: Random Font
+-
+synopsis: This example shows how to access all the fonts on your computer
+It also shows how to access its various display and family names
+-
+shortsynopsis: creates a random font and shows its details
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import <Cocoa/Cocoa.h>
+
+@implementation CFACanvas
+
+NSArray *allFontNames;
+
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    
+    allFontNames = [[CFAFont availableFonts] retain];
+}
+
+-(void)draw {
+    [self background:0];
+    
+    NSInteger rand = [CFAMath randomInt:[allFontNames count]];
+    
+    CFAString *fontName = [allFontNames objectAtIndex:rand];
+    CFAFont *currentFont = [CFAFont fontWithName:fontName size:16];
+    
+    [CFAString font:currentFont];
+    [CFAString fill:1.0f];
+    
+    NSPoint drawPoint = NSMakePoint(20, self.centerPos.y - 2* [currentFont ascender]);
+    
+    [[CFAString stringWithFormat:
+      @"Current Font: %@ \nFamily Name: %@ \nDisplay Name: %@ \n#%d of %d", 
+      fontName, [currentFont familyName], 
+      [currentFont displayName], 
+      rand, [allFontNames count]] drawAtPoint:drawPoint];
+}
+
+-(void)mousePressed {
+    [self redraw];
+}
+@end]]></script>

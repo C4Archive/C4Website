@@ -1,0 +1,13 @@
+title: title
+-
+synopsis:synopsis
+-
+overview: this is an overview
+-
+variables: variables
+-
+classmethods: classmethods
+-
+instancemethods: instancemethods
+-
+relatedexamples: links to related examples

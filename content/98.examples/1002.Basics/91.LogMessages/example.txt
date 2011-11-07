@@ -1,0 +1,40 @@
+title: Log Messages
+-
+synopsis: This example shows how to send messages to the debug console
+
+This is a useful trick for figuring out what's going wrong (or right) in your application 
+-
+shortsynopsis: write to the debug console
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+
+-(void)setup {
+[self windowWidth:400 andHeight:320];
+
+CFALog(@"Indiviual calls to CFALog()");
+CFALog(@"aNumber = %d",0);
+CFALog(@"aNumber = %d",1);
+CFALog(@"aNumber = %d",2);
+CFALog(@"aNumber = %d",3);
+CFALog(@"aNumber = %d",4);
+
+CFALog(@"");
+CFALog(@"Calls to CFALog() made with FOR loops");
+for(int number = 0; number < 5; number++) {
+CFALog(@"aNumber = %d",number);
+}
+
+[CFAString fill:1.0f];
+}
+
+-(void)draw {
+[[CFAString stringWithString:
+@"Draw was called once\nLook in the debug window for logged messages"] 
+drawAtPoint:NSMakePoint(20, self.centrePos.y)];
+}
+
+@end]]></script>

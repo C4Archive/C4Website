@@ -1,0 +1,9 @@
+title: CONTACT
+-
+synopsis:
+get in touch with us
+-
+content: 
+If you have questions about the api or programming in general, sign up and post on the @googlegroup and we'll get back to you right away.
+
+Otherwise, get in touch with us directly: @email

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>» C4</title>
+		<link rel="alternate" type="application/atom+xml" href="../../?/feed/">
+		<link rel="stylesheet" href="../../public/docs/css/c4a_style.css" type="text/css" media="screen">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="../../public/docs/js/jquery.cycle.min.js"></script>
+		<script src="../../public/docs/js/tallest.js"></script>
+        <link rel="icon" type="image/png" href="../../public/images/favicon.ico">
+
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,500,500italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../../public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18444113-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+	<body>
+		<div id="navigation">
+      		<a href="../../" id="logo"><img src="../../public/images/C4Logo.png"></a>
+<ul>			
+		<li><a href="../../about/" id="mainnav_section"   >ABOUT</a></li>
+					
+			<li><a href="../../reference/" id="mainnav_section"   >REFERENCE</a></li>
+					
+			<li><a href="../../examples/" id="mainnav_section"  class="current"  class="current" >EXAMPLES</a></li>
+					
+					<ul>
+						<li><a href="../../examples/Basics/" id="mainnav_subsection"  >➘ Basics</a></li>
+						<li><a href="../../examples/Advanced/" id="mainnav_subsection"  >Advanced</a></li>
+						<li><a href="../../examples/Arrays/" id="mainnav_subsection"  >Arrays</a></li>
+						<li><a href="../../examples/C4/" id="mainnav_subsection" class="current"  class="current" >C4</a></li>
+						<li><a href="../../examples/Color/" id="mainnav_subsection"  >Color</a></li>
+						<li><a href="../../examples/Control/" id="mainnav_subsection"  >Control</a></li>
+						<li><a href="../../examples/Data/" id="mainnav_subsection"  >Data</a></li>
+						<li><a href="../../examples/DateTime/" id="mainnav_subsection"  >Date & Time</a></li>
+						<li><a href="../../examples/Font/" id="mainnav_subsection"  >Font</a></li>
+						<li><a href="../../examples/Image/" id="mainnav_subsection"  >Image</a></li>
+						<li><a href="../../examples/KeyboardMouse/" id="mainnav_subsection"  >KeyboardMouse</a></li>
+						<li><a href="../../examples/Math/" id="mainnav_subsection"  >Math</a></li>
+						<li><a href="../../examples/Movie/" id="mainnav_subsection"  >Movies</a></li>
+						<li><a href="../../examples/Noise/" id="mainnav_subsection"  >Noise</a></li>
+						<li><a href="../../examples/Number/" id="mainnav_subsection"  >Numbers</a></li>
+						<li><a href="../../examples/Objects/" id="mainnav_subsection"  >Objects</a></li>
+						<li><a href="../../examples/OpenGL/" id="mainnav_subsection"  >OpenGL</a></li>
+						<li><a href="../../examples/Shapes/" id="mainnav_subsection"  >Shapes</a></li>
+						<li><a href="../../examples/Sounds/" id="mainnav_subsection"  >Sounds</a></li>
+						<li><a href="../../examples/Transforms/" id="mainnav_subsection"  >Transforms</a></li>
+						<li><a href="../../examples/Vector/" id="mainnav_subsection"  >Vector</a></li>
+						<li><a href="../../examples/Voice/" id="mainnav_subsection"  >Voice</a></li>
+			
+		</ul>
+			<li><a href="../../contact/" id="mainnav_section"   >CONTACT</a></li>
+					
+			<li><a href="../../friends/" id="mainnav_section"   >FRIENDS</a></li>
+					
+			<li><a href="../../downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+					
+			<li><a href="../../projects/" id="mainnav_section"   >PROJECTS</a></li>
+					
+		
+</ul>
+		</div>
+		<div id="content">
+			<p id="title">C4</p>
+			<p>A few examples which play around with the C4 logo.</p>
+							<p><a href="../../examples/C4/C4Points/">C4 Points</a> - creates a logo out of points using a C Array</p>
+							<p><a href="../../examples/C4/C4ForLoops/">C4 For Loops</a> - creates a logo using FOR loops</p>
+							<p><a href="../../examples/C4/C4Methods/">C4 Methods</a> - creates a logo using methods and FOR loops</p>
+							<p><a href="../../examples/C4/C4LoopingImages/">C4 Looping Images</a> - creates visual trickery</p>
+							<p><a href="../../examples/C4/C4Animated1/">C4 Animated 1</a> - animates a logo one point at a time</p>
+							<p><a href="../../examples/C4/C4Animated2/">C4 Animated 2</a> - animates multiple points at the same time</p>
+							<p><a href="../../examples/C4/C4RandomLines/">C4 Random Lines</a> - draws random lines across a logo</p>
+							<p><a href="../../examples/C4/C4Shapes/">C4 Shapes</a> - uses shapes and vertices to create a logo</p>
+							<p><a href="../../examples/C4/C4GradientShapes/">C4 Gradient Shapes</a> - uses shapes and vertices to create a logo which masks a gradient</p>
+							<p><a href="../../examples/C4/C4Wireframe/">C4 Wireframe</a> - creates a logo using wireframe blocks</p>
+							<p><a href="../../examples/C4/C4FadingImages/">C4 Fading Images</a> - continuously fades images over top of one another</p>
+							<p><a href="../../examples/C4/C4GL/">C4 GL</a> - an outlined logo using OpenGL</p>
+							<p><a href="../../examples/C4/C4Quartz/">C4 Quartz</a> - an interactive logo in 3D, using a Quartz patch</p>
+							<p><a href="../../examples/C4/C4Particles/">C4 Particles</a> - a dynamic typeface</p>
+			
+		</div>
+	</body>
+</html>
+<!-- Stacey(2.3.0): 97e2ff8bb76e92ac5b9c7e8123467356 -->

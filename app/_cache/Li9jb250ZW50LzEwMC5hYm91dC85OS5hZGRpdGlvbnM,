@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>C4A</title>
+		<link rel="alternate" type="application/atom+xml" href="../../?/feed/">
+		<link rel="stylesheet" href="../../public/docs/css/c4a_style.css" type="text/css" media="screen"> 
+		<link rel="icon" type="image/png" href="../../public/images/favicon.ico">
+
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,100italic,light,lightitalic,regular,regularitalic,600,600italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Cabin:regular,regularitalic,500,500italic,600,600italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:light,lightitalic,regular,italic,500,500italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="../../public/docs/syntaxHighlighter/styles/shObjC.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="../../public/docs/syntaxHighlighter/scripts/shBrushObjC.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+</head>
+
+	<body>
+		<div id="navigation">
+      		<nav class="col five">
+	<a href="../../" id="logo"><img src="../../public/images/C4ALogo.png"></a>
+	<ul>
+				<li><a href="../../about/" id="mainnav_section"  class="current"  class="current" >ABOUT</a></li>
+						
+								<ul>
+								<li><a href="../../about/people/" id="mainnav_subsection"  >People</a></li>
+								<li><a href="../../about/additions/" id="mainnav_subsection" class="current"  class="current" >Additions</a></li>
+								<li><a href="../../about/support/" id="mainnav_subsection"  >Support</a></li>
+				
+			</ul>
+					<li><a href="../../reference/" id="mainnav_section"   >REFERENCE</a></li>
+						
+					<li><a href="../../examples/" id="mainnav_section"   >EXAMPLES</a></li>
+						
+					<li><a href="../../contact/" id="mainnav_section"   >CONTACT</a></li>
+						
+					<li><a href="../../friends/" id="mainnav_section"   >FRIENDS</a></li>
+						
+					<li><a href="../../downloads/" id="mainnav_section"   >DOWNLOAD</a></li>
+						
+			
+	</ul>
+</nav>
+		</div>
+		<div id="content">
+			<p id="title">Additions<p>
+			<p><p>While most of the code in C4A is original, we've added a few things to the project including:</p>
+
+<p><a class="menulink" href="http://en.wikipedia.org/wiki/Perlin_noise" target="_blank">Perlin Noise</a> (although we did add <a class="menulink" href="http://developer.apple.com/technologies/mac/snowleopard/gcd.html" target="_blank">GCD</a> threading to it...)</p>
+
+<p><a class="menulink" href="http://www.staceyapp.com" target="_blank">Stacey</a> (the content management system for the site)</p>
+
+<p><a class="menulink" href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_blank">SyntaxHighlighter</a> (for code on the website)</p>
+<p>
+		</div>
+	</body>
+</html>
+
+<!-- Stacey(2.3.0): a60a6c67c7d8779512b24f811ffe062b -->

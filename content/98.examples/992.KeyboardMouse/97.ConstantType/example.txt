@@ -1,0 +1,33 @@
+title: Constant Type
+-
+synopsis: This example shows how to draw characters to the screen using key presses (press RETURN to clear the canvas)
+-
+shortsynopsis: just keep on typing 
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAString *theString;
+
+@implementation CFACanvas
+
+-(void)setup {
+    [self drawStyle:EVENTBASED];
+    [self windowWidth:400 andHeight:320];
+    [CFAString fill:1];
+    theString = [[CFAString stringWithString:@""] retain];
+}
+
+-(void)draw {
+    [self background:0];
+    [theString drawInRect:self.canvasRect];
+}
+
+-(void)keyPressed {
+    if(keyChar == RETURN) theString = [[CFAString stringWithString:@""] retain];
+    else theString = [[theString stringByAppendingFormat:@"%c",keyChar] retain];
+}
+@end
+]]></script>

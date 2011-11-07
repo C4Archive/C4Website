@@ -1,0 +1,29 @@
+title: C4 Quartz
+-
+synopsis: This example creates an interactive C4 logo in 3D by importing a Quartz patch and rendering it in the main canvas.
+-
+shortsynopsis: an interactive logo in 3D, using a Quartz patch
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+#import "CFAQuartz.h"
+
+CFAQuartz *patch;
+
+@implementation CFACanvas
+
+-(void)setup {
+    [self drawStyle:ANIMATED];
+    [self windowWidth:400 andHeight:320];
+    patch = [CFAQuartz patchWithName:@"C4"];
+}
+
+-(void)draw {
+    [self background:0];
+    [patch render];
+}
+
+@end
+]]></script>

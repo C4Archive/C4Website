@@ -1,0 +1,22 @@
+title: Play Loop
+-
+synopsis: This example shows how to create and play a custom sound over and over and over and over and over and ...
+-
+shortsynopsis: plays a custom sound continuously
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+@implementation CFACanvas
+
+CFASound *clip;
+
+-(void)setup {
+    clip = [CFASound soundWithName:@"loop" andType:@"aif"];
+    [clip play];
+    [clip setLoops:YES];
+}
+
+@end]]></script>

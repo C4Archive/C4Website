@@ -1,0 +1,37 @@
+title: Framerate
+-
+synopsis: This example shows the use of the FRAMERATE draw style
+
+The framerate is measured in frames per second
+
+The default set to 60 and your application will try to reach this target
+-
+shortsynopsis: can control the actual frames per second
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+@implementation CFACanvas
+
+CFAString *message, *framerate;
+
+-(void)setup {
+    [self drawStyle:ANIMATED];
+    [self windowWidth:400 andHeight:320];
+    message = [[CFAString stringWithString:
+                @"Default framerate is set to 60, the actual framerate will try to match this"] retain];
+    [CFAString fill:1.0f];
+}
+
+-(void)draw {
+    [self background:0];
+    float timeInSeconds = (float)[CFADateTime millis]/1000.0f;
+    framerate = [CFAString stringWithFormat:@"framerate = %4.2f ",self.frameCount/timeInSeconds];
+    
+    [message drawInRect:NSMakeRect(20, self.centrePos.y, 360, 40)];
+    [framerate drawAtPoint:NSMakePoint(20, 146)];
+}
+
+@end]]></script>

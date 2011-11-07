@@ -1,0 +1,11 @@
+title: People
+-
+synopsis:
+something completely boring here
+-
+content: 
+C4 is a project initiated by @travis.
+
+@davidpenuela has been working very hard on the design and development of web stuff.
+
+@alex helped with a bit of work on the logo and some development of the visual concept.

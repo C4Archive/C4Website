@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>http://www.cocoaforartists.org/</loc>
+      <lastmod>2011-08-19T04:23:42+10:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+  </url>
+  
+      <url>
+    <loc>http://www.cocoaforartists.org/about/</loc>
+    <lastmod>2011-08-19T04:13:36+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+            <url>
+    <loc>http://www.cocoaforartists.org/about/people/</loc>
+    <lastmod>2011-08-19T04:13:32+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/about/othercode/</loc>
+    <lastmod>2011-08-19T04:13:38+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/about/support/</loc>
+    <lastmod>2011-08-19T04:13:34+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+    
+      <url>
+    <loc>http://www.cocoaforartists.org/reference/</loc>
+    <lastmod>2011-08-19T04:13:19+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+            <url>
+    <loc>http://www.cocoaforartists.org/reference/CFACanvas/</loc>
+    <lastmod>2011-08-19T04:13:24+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAColor/</loc>
+    <lastmod>2011-08-19T04:13:22+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFADateTime/</loc>
+    <lastmod>2011-08-19T04:13:14+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAFont/</loc>
+    <lastmod>2011-08-19T04:13:30+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAFoundation/</loc>
+    <lastmod>2011-08-19T04:12:59+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAGradient/</loc>
+    <lastmod>2011-08-19T04:13:03+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAImage/</loc>
+    <lastmod>2011-08-19T04:12:56+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAMath/</loc>
+    <lastmod>2011-08-19T04:12:55+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAMovie/</loc>
+    <lastmod>2011-08-19T04:13:17+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFANoise/</loc>
+    <lastmod>2011-08-19T04:13:12+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAObject/</loc>
+    <lastmod>2011-08-19T04:13:18+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAQuartz/</loc>
+    <lastmod>2011-08-19T04:13:08+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAShape/</loc>
+    <lastmod>2011-08-19T04:13:11+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFASound/</loc>
+    <lastmod>2011-08-19T04:12:58+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAString/</loc>
+    <lastmod>2011-08-19T04:13:21+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFATransform/</loc>
+    <lastmod>2011-08-19T04:13:01+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAVector/</loc>
+    <lastmod>2011-08-19T04:13:06+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/reference/CFAVoice/</loc>
+    <lastmod>2011-08-19T04:13:09+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+    
+      <url>
+    <loc>http://www.cocoaforartists.org/examples/</loc>
+    <lastmod>2011-08-19T04:21:27+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+            <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/</loc>
+    <lastmod>2011-08-19T04:19:31+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/WidthHeight/</loc>
+    <lastmod>2011-08-19T04:19:56+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/Singleframe/</loc>
+    <lastmod>2011-08-19T04:19:37+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/Redraw/</loc>
+    <lastmod>2011-08-19T04:19:45+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/Eventbased/</loc>
+    <lastmod>2011-08-19T04:19:41+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/Animated/</loc>
+    <lastmod>2011-08-19T04:20:01+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/Framerate/</loc>
+    <lastmod>2011-08-19T04:19:48+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/Displayrate/</loc>
+    <lastmod>2011-08-19T04:19:59+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/SwitchingDrawStyles/</loc>
+    <lastmod>2011-08-19T04:19:33+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/LogMessages/</loc>
+    <lastmod>2011-08-19T04:19:30+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/Coordinates/</loc>
+    <lastmod>2011-08-19T04:19:23+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/CustomMethods/</loc>
+    <lastmod>2011-08-19T04:19:27+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/RecursiveCircle/</loc>
+    <lastmod>2011-08-19T04:19:51+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Basics/RecursiveCircleRandom/</loc>
+    <lastmod>2011-08-19T04:19:19+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Advanced/</loc>
+    <lastmod>2011-08-19T04:20:57+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Advanced/EveryLetter/</loc>
+    <lastmod>2011-08-19T04:21:03+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Advanced/StoringInput/</loc>
+    <lastmod>2011-08-19T04:20:55+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Advanced/Kandinskyish/</loc>
+    <lastmod>2011-08-19T04:21:08+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Advanced/Oscillator/</loc>
+    <lastmod>2011-08-19T04:21:10+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Arrays/</loc>
+    <lastmod>2011-08-19T04:15:43+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Arrays/Array1D/</loc>
+    <lastmod>2011-08-19T04:15:38+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Arrays/Array2D/</loc>
+    <lastmod>2011-08-19T04:15:35+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Arrays/CArray/</loc>
+    <lastmod>2011-08-19T04:15:31+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Arrays/ObjectArray/</loc>
+    <lastmod>2011-08-19T04:15:24+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Arrays/ObjectArray1D/</loc>
+    <lastmod>2011-08-19T04:15:20+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Arrays/ObjectArray2D/</loc>
+    <lastmod>2011-08-19T04:15:41+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Arrays/MutableArray/</loc>
+    <lastmod>2011-08-19T04:15:27+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/</loc>
+    <lastmod>2011-08-19T04:14:08+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4Points/</loc>
+    <lastmod>2011-08-19T04:14:49+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4ForLoops/</loc>
+    <lastmod>2011-08-19T04:14:23+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4Methods/</loc>
+    <lastmod>2011-08-19T04:14:32+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4LoopingImages/</loc>
+    <lastmod>2011-08-19T04:14:56+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4Animated1/</loc>
+    <lastmod>2011-08-19T04:14:26+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4Animated2/</loc>
+    <lastmod>2011-08-19T04:14:19+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4RandomLines/</loc>
+    <lastmod>2011-08-19T04:14:40+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4Shapes/</loc>
+    <lastmod>2011-08-19T04:14:52+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4GradientShapes/</loc>
+    <lastmod>2011-08-19T04:14:35+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4Wireframe/</loc>
+    <lastmod>2011-08-19T04:14:10+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4FadingImages/</loc>
+    <lastmod>2011-08-19T04:14:28+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4GL/</loc>
+    <lastmod>2011-08-19T04:14:16+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4Quartz/</loc>
+    <lastmod>2011-08-19T04:15:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/C4/C4Particles/</loc>
+    <lastmod>2011-08-19T04:14:44+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Color/</loc>
+    <lastmod>2011-08-19T04:20:51+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Color/BasicColor/</loc>
+    <lastmod>2011-08-19T04:20:32+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Color/ColorRelativity/</loc>
+    <lastmod>2011-08-19T04:20:45+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Color/ColorWheel/</loc>
+    <lastmod>2011-08-19T04:20:50+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Color/Gradients/</loc>
+    <lastmod>2011-08-19T04:20:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Color/GradientsAnimated/</loc>
+    <lastmod>2011-08-19T04:20:38+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Control/</loc>
+    <lastmod>2011-08-19T04:23:08+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Control/Conditionals1/</loc>
+    <lastmod>2011-08-19T04:23:20+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Control/Conditionals2/</loc>
+    <lastmod>2011-08-19T04:23:17+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Control/Logic/</loc>
+    <lastmod>2011-08-19T04:23:08+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Control/Iteration/</loc>
+    <lastmod>2011-08-19T04:23:11+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Control/EmbeddedIteration/</loc>
+    <lastmod>2011-08-19T04:23:13+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Data/</loc>
+    <lastmod>2011-08-19T04:17:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Data/IntegersFloats/</loc>
+    <lastmod>2011-08-19T04:17:41+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Data/TrueFalse/</loc>
+    <lastmod>2011-08-19T04:17:37+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Data/DatatypeConversion/</loc>
+    <lastmod>2011-08-19T04:17:20+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Data/VariableMath/</loc>
+    <lastmod>2011-08-19T04:17:24+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Data/VariableScope/</loc>
+    <lastmod>2011-08-19T04:17:34+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Data/VariableEllipses/</loc>
+    <lastmod>2011-08-19T04:17:31+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/DateTime/</loc>
+    <lastmod>2011-08-19T04:20:23+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/DateTime/CurrentDateTime/</loc>
+    <lastmod>2011-08-19T04:20:17+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/DateTime/Millis/</loc>
+    <lastmod>2011-08-19T04:20:22+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/DateTime/Clock/</loc>
+    <lastmod>2011-08-19T04:20:20+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Font/</loc>
+    <lastmod>2011-08-19T04:15:10+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Font/BasicFont/</loc>
+    <lastmod>2011-08-19T04:15:09+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Font/RandomFont/</loc>
+    <lastmod>2011-08-19T04:15:16+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Font/YourFonts/</loc>
+    <lastmod>2011-08-19T04:15:13+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/</loc>
+    <lastmod>2011-08-19T04:23:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/CreateDraw/</loc>
+    <lastmod>2011-08-19T04:22:21+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/BackgroundImage/</loc>
+    <lastmod>2011-08-19T04:21:50+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/MultiImage/</loc>
+    <lastmod>2011-08-19T04:21:44+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/ImageStretch/</loc>
+    <lastmod>2011-08-19T04:22:58+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/DynamicMatrix/</loc>
+    <lastmod>2011-08-19T04:23:04+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/Pointilism/</loc>
+    <lastmod>2011-08-19T04:22:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/Pixelism/</loc>
+    <lastmod>2011-08-19T04:21:38+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/Transparency/</loc>
+    <lastmod>2011-08-19T04:21:56+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/SingleFilter/</loc>
+    <lastmod>2011-08-19T04:21:34+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/OriginalFilter/</loc>
+    <lastmod>2011-08-19T04:22:48+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Image/CombinedFilter/</loc>
+    <lastmod>2011-08-19T04:22:33+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/</loc>
+    <lastmod>2011-08-19T04:18:14+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/AbstractKeyboard1/</loc>
+    <lastmod>2011-08-19T04:17:58+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/AbstractKeyboad2/</loc>
+    <lastmod>2011-08-19T04:17:45+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/ConstantType/</loc>
+    <lastmod>2011-08-19T04:18:10+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/Mouse1D/</loc>
+    <lastmod>2011-08-19T04:17:48+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/Mouse2D/</loc>
+    <lastmod>2011-08-19T04:18:01+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/MouseMethods/</loc>
+    <lastmod>2011-08-19T04:18:13+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/MouseSignals/</loc>
+    <lastmod>2011-08-19T04:18:04+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/StoringMouseCoords/</loc>
+    <lastmod>2011-08-19T04:17:55+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/EasingCircle/</loc>
+    <lastmod>2011-08-19T04:17:52+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/KeyboardMouse/ConstrainedCircle/</loc>
+    <lastmod>2011-08-19T04:18:17+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/</loc>
+    <lastmod>2011-08-19T04:16:46+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/OperatorPrecedence/</loc>
+    <lastmod>2011-08-19T04:16:46+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/ModulusFloat/</loc>
+    <lastmod>2011-08-19T04:16:36+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/IncrementDecrement/</loc>
+    <lastmod>2011-08-19T04:16:49+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/Distance/</loc>
+    <lastmod>2011-08-19T04:16:43+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/RandomMultiplication/</loc>
+    <lastmod>2011-08-19T04:17:04+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/RandomLines/</loc>
+    <lastmod>2011-08-19T04:16:54+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/DoubleRandom/</loc>
+    <lastmod>2011-08-19T04:17:17+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/SinCosTan/</loc>
+    <lastmod>2011-08-19T04:17:01+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/MixedSineWave/</loc>
+    <lastmod>2011-08-19T04:17:08+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Math/PolarCoords/</loc>
+    <lastmod>2011-08-19T04:16:57+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Movie/</loc>
+    <lastmod>2011-08-19T04:18:24+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Movie/SimpleMovie/</loc>
+    <lastmod>2011-08-19T04:18:20+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Movie/DoubleMovie/</loc>
+    <lastmod>2011-08-19T04:18:28+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Movie/MovingMovie/</loc>
+    <lastmod>2011-08-19T04:18:23+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Movie/StretchingMovie/</loc>
+    <lastmod>2011-08-19T04:18:32+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Movie/MoveAbove/</loc>
+    <lastmod>2011-08-19T04:18:35+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Movie/MovieMatrix/</loc>
+    <lastmod>2011-08-19T04:18:38+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Noise/</loc>
+    <lastmod>2011-08-19T04:21:20+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Noise/Noise1D/</loc>
+    <lastmod>2011-08-19T04:21:15+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Noise/Noise2D/</loc>
+    <lastmod>2011-08-19T04:21:19+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Noise/Noise3D/</loc>
+    <lastmod>2011-08-19T04:21:27+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Noise/NoiseWave/</loc>
+    <lastmod>2011-08-19T04:21:22+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Number/</loc>
+    <lastmod>2011-08-19T04:19:15+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Number/NumberObject/</loc>
+    <lastmod>2011-08-19T04:19:14+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Objects/</loc>
+    <lastmod>2011-08-19T04:15:57+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Objects/BasicObject/</loc>
+    <lastmod>2011-08-19T04:16:10+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Objects/ManyBasicObjects/</loc>
+    <lastmod>2011-08-19T04:16:17+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Objects/ManyBasicObjectsAnimated/</loc>
+    <lastmod>2011-08-19T04:16:06+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Objects/ObjectUpdate/</loc>
+    <lastmod>2011-08-19T04:16:02+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Objects/KeyPressListener/</loc>
+    <lastmod>2011-08-19T04:16:13+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Objects/MouseTracker/</loc>
+    <lastmod>2011-08-19T04:16:22+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/OpenGL/</loc>
+    <lastmod>2011-08-19T04:15:02+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/OpenGL/SimpleGL/</loc>
+    <lastmod>2011-08-19T04:15:05+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/</loc>
+    <lastmod>2011-08-19T04:19:09+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/Circles/</loc>
+    <lastmod>2011-08-19T04:19:06+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/ShapeModes/</loc>
+    <lastmod>2011-08-19T04:18:58+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/PointsLines/</loc>
+    <lastmod>2011-08-19T04:18:49+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/VertexShapes/</loc>
+    <lastmod>2011-08-19T04:18:55+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/ShapePrimitives/</loc>
+    <lastmod>2011-08-19T04:18:52+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/Alien/</loc>
+    <lastmod>2011-08-19T04:19:09+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/SimpleCurves/</loc>
+    <lastmod>2011-08-19T04:19:02+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/SinCosCurves/</loc>
+    <lastmod>2011-08-19T04:18:41+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Shapes/PieChart/</loc>
+    <lastmod>2011-08-19T04:18:45+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Sounds/</loc>
+    <lastmod>2011-08-19T04:20:06+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Sounds/SystemSounds/</loc>
+    <lastmod>2011-08-19T04:20:12+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Sounds/PlayLoop/</loc>
+    <lastmod>2011-08-19T04:20:09+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Sounds/FadeInOut/</loc>
+    <lastmod>2011-08-19T04:20:11+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Sounds/AudioControl/</loc>
+    <lastmod>2011-08-19T04:20:05+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Transforms/</loc>
+    <lastmod>2011-08-19T04:15:49+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Transforms/AutoRotate/</loc>
+    <lastmod>2011-08-19T04:15:51+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Transforms/DynamicTransform/</loc>
+    <lastmod>2011-08-19T04:15:48+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Transforms/Arm/</loc>
+    <lastmod>2011-08-19T04:15:56+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Vector/</loc>
+    <lastmod>2011-08-19T04:23:26+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Vector/Swarm/</loc>
+    <lastmod>2011-08-19T04:23:30+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Vector/Orbs/</loc>
+    <lastmod>2011-08-19T04:23:26+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Voice/</loc>
+    <lastmod>2011-08-19T04:16:23+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    <url>
+    <loc>http://www.cocoaforartists.org/examples/Voice/SimpleVoice/</loc>
+    <lastmod>2011-08-19T04:16:33+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Voice/QuietPrincess/</loc>
+    <lastmod>2011-08-19T04:16:26+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Voice/Pausable/</loc>
+    <lastmod>2011-08-19T04:16:24+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/examples/Voice/Cacaphony/</loc>
+    <lastmod>2011-08-19T04:16:30+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+
+    
+      <url>
+    <loc>http://www.cocoaforartists.org/contact/</loc>
+    <lastmod>2011-08-19T04:14:05+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    
+      <url>
+    <loc>http://www.cocoaforartists.org/friends/</loc>
+    <lastmod>2011-08-19T04:13:44+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    
+      <url>
+    <loc>http://www.cocoaforartists.org/downloads/</loc>
+    <lastmod>2011-08-19T04:13:43+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+    
+      <url>
+    <loc>http://www.cocoaforartists.org/projects/</loc>
+    <lastmod>2011-08-19T04:13:47+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+            <url>
+    <loc>http://www.cocoaforartists.org/projects/ThingTank/</loc>
+    <lastmod>2011-08-19T04:14:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+  <url>
+    <loc>http://www.cocoaforartists.org/projects/WeNeedYourHelp/</loc>
+    <lastmod>2011-08-19T04:13:56+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+  
+
+    
+  
+</urlset>
+<!-- Stacey(2.3.0): 97e2ff8bb76e92ac5b9c7e8123467356 -->

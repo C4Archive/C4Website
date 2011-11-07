@@ -1,0 +1,49 @@
+title: CFAVector
+-
+synopsis: A vector math class.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+properties: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(CGFloat)distanceBetweenA:(NSPoint)pointA andB:(NSPoint)pointB;
++(CGFloat)angleBetweenA:(NSPoint)pointA andB:(NSPoint)pointB;
+
++(id)vectorWithX:(CGFloat)x Y:(CGFloat)y Z:(CGFloat)z;
+-(id)vectorWithX:(CGFloat)x Y:(CGFloat)y Z:(CGFloat)z;
+-(void)setX:(CGFloat)x Y:(CGFloat)y Z:(CGFloat)z;
+-(void)add:(CFAVector *)aVec;
+-(void)addScalar:(float)scalar;
+-(void)divide:(CFAVector *)aVec;
+-(void)divideScalar:(float)scalar;
+-(void)multiply:(CFAVector *)aVec;
+-(void)multiplyScalar:(float)scalar;
+-(void)subtract:(CFAVector *)aVec;
+-(void)subtractScalar:(float)scalar;
+-(CGFloat)distance:(CFAVector *)aVec;
+-(CGFloat)dot:(CFAVector *)aVec;
+-(CGFloat)magnitude;
+-(CGFloat)angleBetween:(CFAVector *)aVec;
+-(void)cross:(CFAVector *)aVec;
+-(void)normalize;
+-(void)limit:(CGFloat)max;
+-(NSPoint)point2D;
+-(CGFloat)heading;
+-(CGFloat)displacedHeading;
+-(CGFloat)headingBasedOn:(NSPoint)p;
+-(CGFloat)x;
+-(CGFloat)y;
+-(CGFloat)z;
+-(void)setX:(CGFloat)newX;
+-(void)setY:(CGFloat)newY;
+-(void)setZ:(CGFloat)newZ;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-relatedexamples: links to related examples

@@ -1,0 +1,36 @@
+title: CFASound
+-
+synopsis: A class for easy playback and control of sound files.
+-
+overview: this is an overview
+-
+variables: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+classmethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
++(CFASound *)systemSound:(NSString *)soundName;
++(CFASound *)soundWithName:(NSString *)file andType:(NSString *)extension;
+-(id)initWithName:(NSString *)file andType:(NSString *)extension;
+-(id)initWithSystemSound:(NSString *)soundName;
+
+-(CGFloat)volume;
+-(void)setVolume:(CGFloat)volume;
+
+-(CGFloat)duration;
+-(CGFloat)currentTime;
+-(void)setCurrentTime:(CGFloat)seconds;
+
+-(BOOL)loops;
+-(void)setLoops:(BOOL)loops;
+
+-(BOOL)isPlaying;
+-(void)pause;
+-(void)play;
+-(void)resume;
+-(void)stop;
+]]></script>
+-
+instancemethods: <script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+]]></script>
+-
+relatedexamples: links to related examples

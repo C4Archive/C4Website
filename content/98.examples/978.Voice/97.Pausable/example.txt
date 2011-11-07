@@ -1,0 +1,47 @@
+title: Pausable
+-
+synopsis: This example shows how to control the pausing of a voice, with one of the options: 
+
+<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+IMMEDIATELY, ENDOFWORD or ENDOFSENTENCE 
+]]></script>
+
+This example uses ENDOFWORD which waits until the voice has finished the current word it is speaking before pausing, try swapping one of the options above in the code below to see the difference
+-
+shortsynopsis: uses the spacebar and the mouse to start and pause a voice
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+
+CFAString *thingsToSay;
+CFAVoice *orator;
+
+@implementation CFACanvas
+
+-(void)setup {
+    thingsToSay = [[CFAString stringWithString:
+                    @"The voice synthesizer can speak any sentence you give it."] retain];
+    orator = [[[CFAVoice alloc] initWithVoice:RALPH] retain];
+    
+    [orator speak:thingsToSay];
+}
+
+-(void)draw {
+}
+
+-(void)mousePressed {
+    if([orator isSpeaking]){
+        [orator pause:ENDOFWORD];
+    } else {
+        [orator continueSpeaking];
+    }
+}
+
+-(void)keyPressed {
+    if(![orator isSpeaking] && keyChar == SPACEBAR) {
+        [orator speak:thingsToSay];
+    }
+}
+@end]]></script>

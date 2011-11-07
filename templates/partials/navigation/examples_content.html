@@ -1,0 +1,11 @@
+<!--each example-->
+foreach $children do
+	if $children do
+	<div class="col seven" id="examples_list">
+		<a href="@url" class="mainnav_section">@title</a><br>
+		foreach $children do
+		<a href="@url" class="mainnav_subsection">@title</a><br>
+		endforeach
+	</div>
+	endif
+endforeach

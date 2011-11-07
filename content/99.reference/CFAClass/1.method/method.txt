@@ -1,0 +1,25 @@
+shorttitle: shorttitle
+-
+title: title
+-
+synopsis:
+synopsis
+-
+description:
+detailed description
+-
+returnvalue:
+return value
+-
+parameters:
+params
+
+params
+-
+example: 
+~~~~~~~~~~~~~~~~~~~~~
+no example
+~~~~~~~~~~~~~~~~~~~~~
+-
+relatedexamples:
+no related examples

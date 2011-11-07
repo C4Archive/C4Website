@@ -1,0 +1,49 @@
+title: Alien
+-
+synopsis: This example uses basic primitives to create a character that looks like an alien
+-
+shortsynopsis: big eyes, no arms...
+-
+discussion: This is a further discussion about the example
+-
+content:<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+#import "CFACanvas.h"
+@implementation CFACanvas
+-(void)setup {
+    [self windowWidth:400 andHeight:320];
+    [self flipCoordinates];
+    [self background:0.75f];
+    [CFAShape rectMode:CENTER];
+}
+-(void)draw {
+    [CFAShape rectWithXPos:self.centrePos.x 
+                      yPos:self.centrePos.y 
+                     width:20 
+                 andHeight:100];
+    
+    [CFAShape ellipseWithXPos:self.centrePos.x 
+                         yPos:self.centrePos.x+30 
+                        width:60 
+                    andHeight:60];
+    
+    [CFAShape ellipseWithXPos:self.centrePos.x-19 
+                         yPos:self.centrePos.x+30
+                        width:16 
+                    andHeight:32];
+    
+    [CFAShape ellipseWithXPos:self.centrePos.x+19
+                         yPos:self.centrePos.x+30 
+                        width:16 
+                    andHeight:32];
+    
+    [CFAShape lineFromX:self.centrePos.x-10 
+                      Y:self.centrePos.y-50 
+                    toX:self.centrePos.x-20 
+                      Y:self.centrePos.y-60];
+    
+    [CFAShape lineFromX:self.centrePos.x+10 
+                      Y:self.centrePos.y-50 
+                    toX:self.centrePos.x+20 
+                      Y:self.centrePos.y-60];
+}
+@end]]></script>
