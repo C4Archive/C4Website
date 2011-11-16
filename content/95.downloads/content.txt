@@ -1,8 +1,0 @@
-title: DOWNLOAD
--
-content:
-To run C4 you need to have XCode 4
-
-You can download the installer here: @xcode4installer 
-
-C4 is currently <b>Alpha</b> if you want to help us make it better, please get in touch @email

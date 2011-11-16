@@ -1,0 +1,5 @@
+overview: 
+You should now see something like the image below.
+
+For simple sketches, the C4Canvas.m file will be the main file into which you will write code.
+-

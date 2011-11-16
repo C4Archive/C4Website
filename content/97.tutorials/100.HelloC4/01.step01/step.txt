@@ -1,0 +1,7 @@
+overview: 
+Voilà! 
+
+A new application is created, a window pops up, and...
+
+Your first C4 application has just said HELLO!
+-

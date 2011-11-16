@@ -1,0 +1,7 @@
+overview: 
+XCode will present you with a bunch of templates from which you can create a new project.
+
+From the menu on the left, choose the C4 option.
+
+Then, select the C4 Application icon and hit the Next button.
+-

@@ -1,0 +1,12 @@
+title: DOWNLOAD
+-
+content:
+1) Download the current installer: @xcode4installer 
+
+2) Double-click the package icon that you've downloaded and follow the installation instructions.
+
+3) Open Xcode, and create a new C4 project.
+
+If you don't have Xcode, you can download a free copy of it: @xcodelink
+
+C4 is currently <b>Alpha</b> if you want to help us make it better, please get in touch @email

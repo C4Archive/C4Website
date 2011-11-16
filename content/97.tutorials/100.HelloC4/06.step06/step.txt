@@ -1,0 +1,3 @@
+overview: 
+In the Project Navigator, on the right, click on each triangle inside your project to hide its contents.
+-

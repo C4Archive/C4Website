@@ -1,0 +1,8 @@
+overview: 
+Add a line to the setup method, so that it looks like this:
+
+<script type="syntaxhighlighter" class="brush: objc"><![CDATA[
+-(void)setup {
+    [C4Voice speak:@"Hello C4"];
+}]]></script>
+-

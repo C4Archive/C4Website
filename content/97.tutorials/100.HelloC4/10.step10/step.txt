@@ -1,0 +1,5 @@
+overview: 
+When you open Xcode for the first time, you get a window like you see below. 
+
+Select the "Create New Xcode Project" option to proceed.
+-
